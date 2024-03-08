@@ -2,7 +2,7 @@ import React from "react";
 
 const BrandIcon = ({ icon, height }) => {
     return (
-        <div className="flex flex-col items-center mx-12 grayscal mix-blend-scree">
+        <div className="mx-10">
             <img src={icon} className={height} />
         </div>
     );
