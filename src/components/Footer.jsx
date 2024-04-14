@@ -23,7 +23,7 @@ const Footer = () => {
                 <p className="text-md md:text-lg">Lorem ipsum dolor sit amet.</p>
               </div>
               <div className="contact mt-4">
-                <h3 className="font-bold text-xs md:text-lg">Contact:</h3>
+                <h3 className="font-bold text-md md:text-lg">Contact:</h3>
                 <p className="text-md md:text-lg underline">+91 1234567899</p>
                 <p className="text-md md:text-lg underline">random@gmail.com</p>
               </div>
