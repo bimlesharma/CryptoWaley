@@ -5,20 +5,22 @@ import cw from "../assets/CW.png";
 
 function SectionOne() {
   return (
-    <div className=" min-h-[100vh] flex justify-center items-center bg-gradient-to-r from-black via-black  to-[rgba(47,40,255,0.5)] bg-black">
-      <div className="left  w-[35%] mr-52">
-        <h1 className=" text-6xl font-bold leading-none text-grad">
+    <div className="py-10 md:px-10 lg:px-20 px-5 lg:px md:min-h-[100vh] flex flex-col md:flex-row md:justify-center items-center bg-gradient-to-r from-black via-black  to-[rgba(47,40,255,0.5)] bg-black">
+      
+      <div className="p-2  left md:w-[80%] w-full lg:w-full  mb">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-none -5">
           Build & launch successful teams easier than ever
         </h1>
-        <p className=" text-xl leading-6 my-2 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis neque alias tempore totam autem praesentium sit architecto. Non vitae quam maiores ad nesciunt quibusdam unde dolorum enim? Cupiditate, eligendi sequi!
+        <p className=" text-lg md:text-xl leading-6 my-3 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis neque alias tempore totam autem praesentium sit architecto. Non vitae quam maiores ad nesciunt quibusdam unde dolorum enim? Cupiditate, eligendi sequi!
 
         </p>
-        <ButtonBlue data="Get started"/>
+        <p className=""><ButtonBlue data="Get started"/></p>
         
       </div>
-      <div className="left  w-[35%] ">
+      <div className="right p-2 lg:w-full w-[80%] ">
         <img src={cw} alt="side-img" />
       </div>
+      
     </div>
   );
 }
