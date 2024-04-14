@@ -17,7 +17,7 @@ import b14 from "../assets/brand-logos/14.png"
 
 function SectionTwo() {
   return (
-    <div className=" min-h-[20vh] bg-[#14143a] flex justify-center items-center">
+    <div className="md:h-[15vh] lg:min-h-[20vh] bg-[#14143a] flex justify-center items-center">
       {/* <BrandIcon icon={b1} height="h-28"/> */}
       {/* <BrandIcon icon={b2} height="h-28"/> */}
       {/* <BrandIcon icon={b3} height="h-28"/> */}
@@ -28,7 +28,7 @@ function SectionTwo() {
       {/* <BrandIcon icon={b8} height="h-28"/> */}
       <BrandIcon icon={b9} height="h-28"/>
       <BrandIcon icon={b10} height="h-28"/>
-      <BrandIcon icon={b11} height="h-28"/>
+      <BrandIcon icon={b11} height="h-12"/>
       {/* <BrandIcon icon={b12} height="h-28"/> */}
       {/* <BrandIcon icon={b13} height="h-28"/> */}
       {/* <BrandIcon icon={b14} height="h-28"/> */}
