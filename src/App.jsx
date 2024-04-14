@@ -15,7 +15,7 @@ function App () {
       <Navbar />
       <SectionOne />
       <SectionTwo />
-      <SectionThree />
+      <SectionThree /> 
       <SectionFour />
       <SectionFive />
       <SectionSix />
