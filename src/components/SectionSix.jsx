@@ -20,7 +20,7 @@ import CW from "../assets/CW.png";
 
 function SectionSix() {
   return (
-    <div className=" bg-white text-black md:p-10 p-5 lg:p-20 gap-5 md:gap-8 lg:gap-20 flex flex-col md:flex-row justify-center items-center">
+    <div className=" bg-white text-black py-12 md:p-10 p-5 lg:p-20 gap-5 md:gap-8 lg:gap-20 flex flex-col md:flex-row justify-center items-center">
       <Cards 
         heading={'Organized Documentation'}
         p={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, excepturi?'}
