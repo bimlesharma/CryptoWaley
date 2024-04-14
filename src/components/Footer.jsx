@@ -19,13 +19,13 @@ const Footer = () => {
             <img src={CW} alt="Company Logo" className="h-12 md:h-14 mt-5" />
             <div className="details my-8">
               <div className="address">
-                <h3 className="font-bold text-xs md:text-sm">Address:</h3>
-                <p className="text-xs md:text-sm">Lorem ipsum dolor sit amet.</p>
+                <h3 className="font-bold text-md md:text-lg">Address:</h3>
+                <p className="text-md md:text-lg">Lorem ipsum dolor sit amet.</p>
               </div>
               <div className="contact mt-4">
-                <h3 className="font-bold text-xs md:text-sm">Contact:</h3>
-                <p className="text-xs md:text-sm underline">+91 1234567899</p>
-                <p className="text-xs md:text-sm underline">random@gmail.com</p>
+                <h3 className="font-bold text-xs md:text-lg">Contact:</h3>
+                <p className="text-md md:text-lg underline">+91 1234567899</p>
+                <p className="text-md md:text-lg underline">random@gmail.com</p>
               </div>
             </div>
             <div className="socials flex mt-4 md:mt-6">
@@ -42,7 +42,7 @@ const Footer = () => {
             {/* Menu Columns */}
             <div className="mx- md:mx-0">
               {/* <h4 className="font-semibold text-xs md:text-sm mb-4">Quick Links</h4> */}
-              <ul className="text-xs md:text-sm">
+              <ul className="text-md md:text-lg">
                 <li className="my-2">
                   <a href="#">Home</a>
                 </li>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
             <div className="mx- md:mx-0">
               {/* <h4 className="font-semibold text-xs md:text-sm mb-4">Account</h4> */}
-              <ul className="text-xs md:text-sm">
+              <ul className="text-md md:text-lg">
                 <li className="my-2">
                   <a href="#">Features</a>
                 </li>
@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
             <div className="mx- md:mx-0">
               {/* <h4 className="font-semibold text-xs md:text-sm mb-4">Resources</h4> */}
-              <ul className="text-xs md:text-sm">
+              <ul className="text-md md:text-lg">
                 <li className="my-2">
                   <a href="#">Style Guide</a>
                 </li>
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center mt-8 gap-2 text-xs md:text-sm">
+        <div className="flex flex-col md:flex-row justify-between items-center mt-8 gap-2 text-sm md:text-md">
           <p>© 2024 CryptoWaley</p>
           <p>
             Developed by{" "}
@@ -109,7 +109,7 @@ const Footer = () => {
             </a>{" "}
             - Using ReactJs
           </p>
-          <ul className="flex">
+          <ul className="flex text-xs">
             <li className="mr-3 underline">Privacy Policy</li>
             <li className="mr-3 underline">Terms of Service</li>
             <li className="underline">Cookies Settings</li>

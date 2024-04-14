@@ -22,7 +22,7 @@ const RoundedBox = ({ img, title, author, authorDesignation, number, p, data }) 
       </div>
 
       {/* Right Section */}
-      <div className="inner-right  bg-gray-100 rounded-r-[1.8rem] p-8 flex flex-col justify-center items-center">
+      <div className="inner-right  bg-gray-100 rounded-r-[1.8rem] rounded-l-[1.8rem] p-8 flex flex-col justify-center items-center">
         <div className="text-4xl font-bold mb-6">{number}</div>
         <div className="text-lg mb-6">{p}</div>
         <div className="mb-6">
