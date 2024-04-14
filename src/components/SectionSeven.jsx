@@ -4,9 +4,9 @@ import ButtonBlue from "./ButtonBlue";
 
 function SectionSeven() {
   return (
-    <div className="my-12 px-5 md:px-10 lg:px-20">
+    <div className="py-10 px-5 md:px-10 lg:px-20 min-h-[100vh] flex flex-col justify-center items-center">
       {/* Section Title */}
-      <div className="flex justify-center text-center lg:text-5xl md:text-4xl text-3xl mb-5 lg:my-12 font-medium tracking-wider">
+      <div className="flex justify-center text-center lg:text-5xl md:text-4xl text-3xl my-12 lg:my-14 font-medium tracking-wider">
         <h1>Our Unique Features</h1>
       </div>
 
@@ -18,8 +18,8 @@ function SectionSeven() {
       </div>
 
       {/* Section Subtitle */}
-      <div className="flex justify-center text-4xl lg:text-5xl mt-12 lg:mt-0 mb-12 lg:mb-12 font-medium tracking-wider">
-        <h1 className="w-3/4 lg:w-2/4 text-center leading-tight">
+      <div className="flex justify-center text-2xl md:text-3xl lg:text-4xl lg:mt-0 lg:mb-10 mb-5 font-medium tracking-wider">
+        <h1 className="w-3/4 lg:w-full text-center leading-tight">
           Take Your Startup to the Next Level
         </h1>
       </div>

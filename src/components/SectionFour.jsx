@@ -8,8 +8,8 @@ import RoundedBox from "./RoundedBox";
 
 const SectionFour = () => {
   return (
-    <div className=" px-5 md:px-10 lg:px-20 py-12 main min-h-[10 bg-white text-black">
-      <h1 className=" leading-none md:text-[3rem] text-4xl font-bold text-center pb-10">
+    <div className=" px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center bg-white text-black">
+      <h1 className=" leading-none md:text-[3rem] text-4xl font-bold text-center pb-20">
         Trusted by worldwide largest companies
       </h1>
       <RoundedBox 
@@ -22,7 +22,7 @@ const SectionFour = () => {
         data = {"Get Started"}
       />
       {/* brand logo bar */}
-      <div className="flex justify-center">
+      <div className="flex justify-center my-10">
         <div className="brand-bar flex w-[90%]">
           <BrandIcon icon={logo5} height="h-28" />
           <BrandIcon icon={logo5} height="h-28" />
