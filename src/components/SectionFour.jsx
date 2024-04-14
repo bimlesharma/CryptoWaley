@@ -8,8 +8,8 @@ import RoundedBox from "./RoundedBox";
 
 const SectionFour = () => {
   return (
-    <div className="main min-h-[100vh] bg-white text-black">
-      <h1 className="text-[3rem] font-bold text-center pt-20">
+    <div className=" px-5 md:px-10 lg:px-20 py-12 main min-h-[10 bg-white text-black">
+      <h1 className=" leading-none md:text-[3rem] text-4xl font-bold text-center pb-10">
         Trusted by worldwide largest companies
       </h1>
       <RoundedBox 
@@ -27,10 +27,17 @@ const SectionFour = () => {
           <BrandIcon icon={logo5} height="h-28" />
           <BrandIcon icon={logo5} height="h-28" />
           <BrandIcon icon={logo5} height="h-28" />
+          {/* <BrandIcon icon={logo5} height="h-28" /> */}
+          <span className="hidden md:contents">
           <BrandIcon icon={logo5} height="h-28" />
+          </span>
+          <span className="hidden lg:contents">
           <BrandIcon icon={logo5} height="h-28" />
+          </span>
+          <span className="hidden xl:contents">
           <BrandIcon icon={logo5} height="h-28" />
-          <BrandIcon icon={logo5} height="h-28" />
+          </span>
+          
         </div>
       </div>
     </div>
