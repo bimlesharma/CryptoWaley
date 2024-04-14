@@ -5,8 +5,8 @@ import Feature from "./Feature";
 
 function SectionThree() {
   return (
-    <div className="main min-h-[100vh]">
-      <div className="heading text-[3.5rem] font-bold ml-32 mt-[15vh]">
+    <div className="main min-h-[100vh] py-10">
+      <div className="heading text-4xl md:text-5xl lg:text-[3.5rem] flex justify-center px-6 text-cente font-bold">
         <h1 >Nothing less than excellent</h1>
       </div>
       
