@@ -84,13 +84,13 @@ const SectionFour = () => {
       </h1>
 
       {/* Video Section */}
-      <div className="video flex justify-center w-full md:w-[60vw] my-10 rounded-2xl border-spacing-5 bg-pink-50 p-1">
+      <div className="video flex justify-center w-full md:w-[60vw] my-10 rounded-2xl border-spacing-5 bg-blue-50 p-1">
         <video src={intro} controls={false} className="w- h-full rounded-2xl bg-slate-400 " autoPlay loop muted />
         {/* Set controls={false} to hide video controls */}
       </div>
 
       {/* Rounded Box Content */}
-      <RoundedBox
+      {/* <RoundedBox
         img={CW}
         title={'"We went from 3 to 28 people in just 3 months thanks for the great management of Upcloud."'}
         author="Richard Oconor"
@@ -98,17 +98,18 @@ const SectionFour = () => {
         number="1005+"
         p="documents automated across the entire business"
         data="Get Started"
-      />
+      /> */}
 
       {/* Brand Logo Bar */}
-      <div className="flex justify-center my-10 w-[90%]">
-        <BrandIcon icon={logo5} height="h-28" />
-        <BrandIcon icon={logo5} height="h-28" />
-        <BrandIcon icon={logo5} height="h-28" />
-        <BrandIcon icon={logo5} height="h-28 md:hidden" /> {/* Show on mobile */}
-        <BrandIcon icon={logo5} height="h-28 lg:hidden" /> {/* Show on tablet */}
-        <BrandIcon icon={logo5} height="h-28 xl:hidden" /> {/* Show on desktop */}
-      </div>
+      {/* <div className="flex justify-center my-10 w-[90%]">
+        <BrandIcon icon={logo5} height="h-28 " />
+        <BrandIcon icon={logo5} height="h-28 " />
+        <BrandIcon icon={logo5} height="h-28 " />
+        <BrandIcon icon={logo5} height="h-28 md:hidden" /> 
+        <BrandIcon icon={logo5} height="h-28 lg:hidden" /> 
+        <BrandIcon icon={logo5} height="h-28 xl:hidden" /> 
+      </div> */}
+      
     </div>
   );
 };

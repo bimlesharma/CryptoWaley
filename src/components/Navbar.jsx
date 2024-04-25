@@ -292,7 +292,7 @@ function Navbar() {
                 Contact
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/" className="block py-5 hover:text-gray-300">
                 Cart
               </a>
@@ -306,13 +306,13 @@ function Navbar() {
               <a href="/" className="block py-5 hover:text-gray-300">
                 Get started
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       )}
 
       {/* Right Section */}
-      <div className="hidden md:flex gap-2 items-center">
+      {/* <div className="hidden md:flex gap-2 items-center">
         <div className="bg-black rounded-full size-12 flex justify-center items-center">
           <MdShoppingCart className="size-6" />
         </div>
@@ -320,7 +320,7 @@ function Navbar() {
           <RiUser6Line className="size-6 items-center" />
         </div>
         <Button data="Get started" />
-      </div>
+      </div> */}
     </div>
   );
 }

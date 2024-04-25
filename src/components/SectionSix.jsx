@@ -17,11 +17,13 @@ function SectionSix() {
         heading={'Rishabh Singhal'}
         p={"#Crypto 🇮🇳 || Founder @cryptowaley || Strategist @Dpadfinance in 2022"}
         img = {rishabh}
+        URL={"https://twitter.com/rishabhsrishi"}
       />
       <Cards 
         heading={'Keshav Agarwal'}
         p={'Diverse Knowledge of Financial Markets | Blockchain & Crypto Advocate | Speaker at Management Education and Research Institute'}
         img = {keshav}
+        URL={"https://www.linkedin.com/in/keshavism/"}
       />
     </div>
     </div>

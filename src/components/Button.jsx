@@ -3,7 +3,7 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 import bulearrow from "../assets/bluearrow.svg";
 
 
-const Button = (props) => {
+const Button = (props, URL) => {
   return (
     <button
       className=" text-white p-3 pl-7  flex items-center gap-4 cursor-pointer rounded-full p bg-[rgba(222,222,222,0.2)]"

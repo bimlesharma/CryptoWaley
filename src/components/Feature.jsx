@@ -39,7 +39,7 @@ function Feature({ heading, para0, para1, img }) {
           </h1>
           <p className="text-lg md:text-xl leading-6 my-4 md:my-8">{para0}</p>
           <p className="text-lg md:text-xl leading-6 my-4 md:my-8">{para1}</p>
-          <Button data="Get Started" />
+          {/* <Button data="Get Started" /> */}
         </div>
       </div>
 
