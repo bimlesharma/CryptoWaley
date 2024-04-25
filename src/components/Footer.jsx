@@ -19,21 +19,33 @@ const Footer = () => {
             <img src={CW} alt="Company Logo" className="h-12 md:h-14 mt-5" />
             <div className="details my-8">
               <div className="address">
-                <h3 className="font-bold text-md md:text-lg">Address:</h3>
-                <p className="text-md md:text-lg">Lorem ipsum dolor sit amet.</p>
+                {/* <h3 className="font-bold text-md md:text-lg">Address:</h3> */}
+                {/* <p className="text-md md:text-lg">Lorem ipsum dolor sit amet.</p> */}
               </div>
               <div className="contact mt-4">
                 <h3 className="font-bold text-md md:text-lg">Contact:</h3>
-                <p className="text-md md:text-lg underline">+91 1234567899</p>
-                <p className="text-md md:text-lg underline">random@gmail.com</p>
+                {/* <p className="text-md md:text-lg underline">+91 1234567899</p> */}
+                <p className="text-md md:text-lg underline">
+                  cryptowaleyofficial@gmail.com
+                </p>
               </div>
             </div>
             <div className="socials flex mt-4 md:mt-6">
-              <FaFacebookF className="mr-4 size-6 md:size-7" />
+              {/* <a href="https://www.linkedin.com/company/cryptowaley/">
+                <FaFacebookF className="mr-4 size-6 md:size-7" />
+              </a> */}
+              <a href="https://www.instagram.com/cryptowaley_" target="_blank">
               <FaInstagram className="mr-4 size-6 md:size-7" />
+              </a>
+              <a href="https://twitter.com/cryptowaley/" target="_blank">
               <FaTwitter className="mr-4 size-6 md:size-7" />
+              </a>
+              <a href="https://www.linkedin.com/company/cryptowaley/" target="_blank">
               <FaLinkedin className="mr-4 size-6 md:size-7" />
+              </a>
+              <a href="http://www.youtube.com/@cryptowaley/" target="_blank">
               <FaYoutube className="mr-4 size-6 md:size-7" />
+              </a>
             </div>
           </div>
 
@@ -95,7 +107,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center mt-8 gap-2 text-sm md:text-md">
+        {/* <div className="flex flex-col md:flex-row justify-between items-center mt-8 gap-2 text-sm md:text-md">
           <p>© 2024 CryptoWaley</p>
           <p>
             Developed by{" "}
@@ -114,7 +126,7 @@ const Footer = () => {
             <li className="mr-3 underline">Terms of Service</li>
             <li className="underline">Cookies Settings</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
