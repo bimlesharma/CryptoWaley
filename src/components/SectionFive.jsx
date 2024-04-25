@@ -86,16 +86,16 @@ const SectionFive = () => {
       <div className="right w-full px-4 md:px-0 md:w-1/2 grid grid-cols-2 gap-8 text-right">
         {/* Statistics */}
         <div className="stats">
-          <h1 className="text-4xl lg:text-6xl font-bold">#1</h1>
-          <p className="text-sm my-3">top leader in worldwide SaaS industry</p>
+          <h1 className="text-4xl lg:text-6xl font-bold">50+</h1>
+          <p className="text-sm my-3">meetups attended</p>
         </div>
         <div className="stats">
-          <h1 className="text-4xl lg:text-6xl font-bold">12</h1>
-          <p className="text-sm my-3">years of experience in the business</p>
+          <h1 className="text-4xl lg:text-6xl font-bold">30+</h1>
+          <p className="text-sm my-3">media partnerships</p>
         </div>
         <div className="stats">
-          <h1 className="text-4xl lg:text-6xl font-bold">14</h1>
-          <p className="text-sm my-3">top leader in worldwide SaaS industry</p>
+          <h1 className="text-4xl lg:text-6xl font-bold">125+</h1>
+          <p className="text-sm my-3">interviews published</p>
         </div>
         <div className="stats">
           <h1 className="text-4xl lg:text-6xl font-bold">4.9/5</h1>
