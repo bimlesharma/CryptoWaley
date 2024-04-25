@@ -9,12 +9,12 @@ function SectionOne() {
       
       <div className="p-2 m-auto left md:w-[80%] w-full lg:w-full ">
         <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold leading-none my-5">
-          Build & launch successful teams easier than ever
+          Empowering Crypto Community with Insights and Innovation
         </h1>
-        <p className="my-5 text-xl md:text-xl leading-6 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis neque alias tempore totam autem praesentium sit architecto. Non vitae quam maiores ad nesciunt quibusdam unde dolorum enim? Cupiditate, eligendi sequi!
-
+        <p className="my-5 text-xl md:text-xl leading-6 ">
+        Cryptowaley is your gateway to the vibrant world of cryptocurrency and blockchain. Explore the latest meetups, insightful news, and groundbreaking projects with us. Join our community to revolutionize the way you engage with digital finance.
         </p>
-        <p className=""><ButtonBlue data="Get started"/></p>
+        <a href="https://www.youtube.com/@cryptowaley" target="_blank"><ButtonBlue data="CryptoWaley on Youtube"/></a>
         
       </div>
       <div className="right p-2 mt-1 lg:w-full w-[80%] ">
