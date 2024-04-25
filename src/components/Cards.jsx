@@ -9,7 +9,6 @@ const Cards = ({heading, p, img, URL}) => {
             <h1 className='text-2xl py-1 pt-1 ml-5 z-10'>{heading}</h1>
             <p className='text-md ml-5 w-[90%] pb-1'>{p}</p>
             <a href={URL} target="_blank" className='ml-5 pb-5'><Button data='Connect with me'/></a>
-
         </div>
     );
 };
