@@ -225,7 +225,7 @@ function Navbar() {
   };
 
   return (
-    <div className="text-white font-bold bg-transparent flex justify-between items-center h-[10vh] bg-gradient-to-r from-black via-black to-[rgba(47,40,255,0.5)] bg-black px-6 md:px-10 lg:px-20">
+    <div className="text-white absolute w-full font-bold bg-transparent flex justify-between items-center h-[10vh] px-6 md:px-10 lg:px-20">
       <div className="left">
         <a href="#" className="h-12">
           <img src={cw} alt="" className="h-12" />
@@ -265,7 +265,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden absolute flex justify-end -ml-6 top-[10vh] w-full h-full  p-5 text-white z-20 transition-opacity duration-300 opacity-100 bg-gradient-to-r from-[rgba(0,0,0,.3)] via-[rgba(0,0,0,0.8)]  to-[#181481]">
+        <div className="md:hidden absolute flex justify-end -ml-6 top-[10vh] w-full h-screen  p-5 text-white z-20 transition-opacity duration-300 opacity-100 bg-gradient-to-r from-[rgba(0,0,0,.3)] via-[rgba(0,0,0,0.8)]  to-[#181481]">
           <ul className="text-cente py-4 text-right text-xl mr-0 mt-5">
             <li>
               <a href="/" className="block py-5 hover:text-gray-300">
