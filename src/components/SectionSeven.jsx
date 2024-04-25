@@ -12,9 +12,21 @@ function SectionSeven() {
 
       {/* Feature Images */}
       <div className="flex justify-center flex-wrap gap-4 md:gap-8 lg:gap-12 mb-5 lg:mb-12">
-        <img src={CW} alt="Feature Image" className=" h-60 md:h-80 lg:h-[18rem] px-5" />
-        <img src={CW} alt="Feature Image" className=" h-60 md:h-80 lg:h-[18rem] px-5" />
-        <img src={CW} alt="Feature Image" className=" h-60 md:h-80 lg:h-[18rem] px-5" />
+        <img
+          src={CW}
+          alt="Feature Image"
+          className=" h-60 md:h-80 lg:h-[18rem] px-5"
+        />
+        <img
+          src={CW}
+          alt="Feature Image"
+          className=" h-60 md:h-80 lg:h-[18rem] px-5"
+        />
+        <img
+          src={CW}
+          alt="Feature Image"
+          className=" h-60 md:h-80 lg:h-[18rem] px-5"
+        />
       </div>
 
       {/* Section Subtitle */}
@@ -26,7 +38,9 @@ function SectionSeven() {
 
       {/* Button */}
       <div className="flex justify-center">
-        <ButtonBlue data="Get Started" />
+        <a href="https://www.youtube.com/@cryptowaley" target="_blank">
+          <ButtonBlue data="CryptoWaley on Youtube" />
+        </a>
       </div>
     </div>
   );
