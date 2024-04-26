@@ -5,6 +5,7 @@ import Button from "./Button";
 import { MdShoppingCart } from "react-icons/md";
 import { RiUser6Line } from "react-icons/ri";
 import { FaBars, FaTimes } from "react-icons/fa";
+import NavButton from "./NavButton";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ function Navbar() {
   return (
     <div className="text-white absolute w-full font-bold bg-transparent flex justify-between items-center h-[10vh] px-6 md:px-10 lg:px-20">
       <div className="left">
-        <a href="#" className="h-12">
+        <a href="/" className="h-12">
           <img src={cw} alt="" className="h-12" />
         </a>
       </div>
@@ -34,21 +35,13 @@ function Navbar() {
 
       {/* Normal Menu for Larger Screens */}
       <div className="hidden md:flex justify-center items-center space-x-6">
-        <a href="/" className="hover:text-gray-300">
-          Features
-        </a>
-        <a href="/" className="hover:text-gray-300">
-          About us
-        </a>
-        <a href="/" className="hover:text-gray-300">
-          Pricing
-        </a>
-        <a href="/" className="hover:text-gray-300">
-          Blog
-        </a>
-        <a href="/" className="hover:text-gray-300">
-          Contact
-        </a>
+
+        <NavButton data="Features" id="features"/>
+        <NavButton data="About us" id="about"/>
+        <NavButton data="Testimonial" id="testimonial"/>
+        <NavButton data="Stats" id="stats"/>
+        <NavButton data="Team" id="team"/>
+        <NavButton data="Contact" id="footer"/>
         
       </div>
 

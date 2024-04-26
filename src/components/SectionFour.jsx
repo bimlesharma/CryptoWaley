@@ -10,7 +10,7 @@ import RoundedBox from "./RoundedBox";
 
 const SectionFour = () => {
   return (
-    <div className="px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center bg-white text-black">
+    <div id="about" className="px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center bg-white text-black">
       <h1 className="leading-none md:text-[3rem] text-4xl font-bold text-center">
         Trusted by the world's largest companies
       </h1>
@@ -49,7 +49,7 @@ const SectionFour = () => {
         <BrandIcon icon={logo5} height="h-28 xl:hidden" /> 
       </div> */}
 
-      <div data-theme="light" className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full ">
+      <div id="testimonial" data-theme="light" className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full ">
         <Tweet id="1739587132102938719" />
         <Tweet id="1766504362074157188" />
         <Tweet id="1774421020679852270" />

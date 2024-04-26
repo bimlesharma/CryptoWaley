@@ -8,7 +8,7 @@ import Feature from "./Feature";
 
 function SectionThree() {
   return (
-    <div className="main min-h-[100vh] py-10">
+    <div id="features" className="main min-h-[100vh] py-10">
       <div className="heading text-4xl md:text-5xl lg:text-[3.5rem] flex justify-center px-6 text-cente font-bold">
         <h1 >Nothing less than excellent</h1>
       </div>

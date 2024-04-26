@@ -6,7 +6,7 @@ import keshav from "/assets/img/keshav.jpeg";
 
 function SectionSix() {
   return (
-    <div>
+    <div id="team">
       <div className="flex flex-col justify-center items-center bg-white text-black">
       <h1 className=" leading-none md:text-[3rem] text-4xl font-bold text-center pt-20">
         Founding Partners

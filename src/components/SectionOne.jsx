@@ -6,7 +6,7 @@ import cw from "../assets/CW.png";
 function SectionOne() {
   const url = new URL("https://www.youtube.com/@cryptowaley/");
   return (
-    <div className="m-auto md:px-10 lg:px-20 min-h-screen px-5 lg:px md:min-h-[100vh] w-full  flex flex-col md:flex-row md:justify-center md:items-center justify-center bg-black items-center bg-gradient-to-r from-black via-black  to-[rgba(47,40,255,0.5)] ">
+    <div id="home" className="m-auto md:px-10 lg:px-20 min-h-screen px-5 lg:px md:min-h-[100vh] w-full  flex flex-col md:flex-row md:justify-center md:items-center justify-center bg-black items-center bg-gradient-to-r from-black via-black  to-[rgba(47,40,255,0.5)] ">
       
       <div className=" m-auto left md:w-[80%] w-full lg:w-full sm:mt-20 mt-16 md:mt-auto ">
         <h1 className="text-3xl mt-10 md:text-4xl lg:text-5xl font-bold leading-none ">
