@@ -5,7 +5,7 @@ import blackarrow from "../assets/blackarrow.svg";
 const ButtonBlue = (props) => {
   return (
     <div
-      className=" text-white p-3 pl-7  flex items-center gap-4 cursor-pointer rounded-full bg-[#3956f1]"
+      className=" text-white p-3 pl-7  w-fit flex items-center gap-4 cursor-pointer rounded-full bg-[#3956f1]"
       onClick={URL}
     >
       {props.data}
