@@ -2,6 +2,7 @@ import Button from "./Button";
 import ButtonBlue from "./ButtonBlue";
 import cw from "../assets/CW.png";
 import standee from "/assets/img/standee.jpg";
+import bengaluru from "/assets/img/bengaluru.jpg";
 import stage from "/assets/img/stage.jpg";
 import group from "/assets/img/group.jpg";
 import Feature from "./Feature";
@@ -26,7 +27,7 @@ function SectionThree() {
         para1 = "Discover who is working on what and see your team members performance."
       />
       <Feature 
-        img = {standee}
+        img = {bengaluru}
         heading = "Leads sources"
         para0 = "Discover where all your converted leads are coming from and take action into the right direction."
         para1 = "Grow your audience using the channel that drives most of traffic."

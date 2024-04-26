@@ -1,6 +1,6 @@
 import React from 'react';
 import CW from '../assets/CW.png';
-import Button from './Button';
+import ButtonBlue from './ButtonBlue';
 
 const Cards = ({heading, p, img, URL}) => {
     return (
@@ -8,7 +8,7 @@ const Cards = ({heading, p, img, URL}) => {
             style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.001), rgba(0,0,0,0.7)), url(${img})` }}>
             <h1 className='text-2xl py-1 pt-1 ml-5 z-10'>{heading}</h1>
             <p className='text-md ml-5 w-[90%] pb-1'>{p}</p>
-            <a href={URL} target="_blank" className='ml-5 pb-5'><Button data='Connect with me'/></a>
+            <a href={URL} target="_blank" className='ml-5 pb-5'><ButtonBlue data='Connect with me'/></a>
         </div>
     );
 };
