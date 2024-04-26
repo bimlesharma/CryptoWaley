@@ -31,7 +31,8 @@ function SectionTwo() {
     autoplay: true,
     speed: 2000,
     autoplaySpeed:2000,
-    cssEase: "linear"
+    cssEase: "linear",
+    easing: "ease-in-out",
   };
   return (
     <div className="m-auto w-full h-auto bg-blue-950">
