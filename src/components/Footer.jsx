@@ -37,7 +37,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/cryptowaley_" target="_blank">
               <FaInstagram className="mr-4 size-6 md:size-7" />
               </a>
-              <a href="https://x.com/cryptowaley" target="_blank">
+              <a href="https://twitter.com/cryptowaley" target="_blank">
               <FaTwitter className="mr-4 size-6 md:size-7" />
               </a>
               <a href="https://www.linkedin.com/company/cryptowaley/" target="_blank">
