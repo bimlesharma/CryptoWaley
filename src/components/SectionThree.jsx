@@ -16,21 +16,21 @@ function SectionThree() {
       
       <Feature 
         img = {group}
-        heading = "Detailed analytics"
-        para0 = "See the full picture of all your projects in one place and take action immediately."
-        para1 = "Our extensive tool will help you maximize the profits and scale your business."
+        heading = "Exclusive Interviews with Industry Icons"
+        para0 = "we bring you exclusive interviews with renowned personalities who are shaping the future of the web3 and crypto space. From thought leaders to innovators, we delve deep into their insights, experiences, and visions for the decentralized future. Get inspired by conversations with luminaries such as Mario Nawfal, Ajeet Khurana, Sumit Gupta, and more.        "
+        para1 = "Explore our interviews → "        
       />
       <Feature 
         img = {stage}
-        heading = "Projects overview"
-        para0 = "Track and manage and manage all projects very easy without back and forth."
-        para1 = "Discover who is working on what and see your team members performance."
+        heading = "On-Ground Coverage of Web3 and Crypto Events"
+        para0 = "We're your eyes and ears on the ground, providing comprehensive coverage of every significant web3 and crypto meetup, conference, and tech seminar. Stay updated with firsthand accounts, event highlights, keynote summaries, and exclusive behind-the-scenes content. Whether it's a local gathering or a global summit, we're there to bring you the pulse of the decentralized movement.        "
+        para1 = "Check out our event coverage →"      
       />
       <Feature 
         img = {bengaluru}
-        heading = "Leads sources"
-        para0 = "Discover where all your converted leads are coming from and take action into the right direction."
-        para1 = "Grow your audience using the channel that drives most of traffic."
+        heading = "Beyond Borders: Nationwide Coverage"
+        para0 = "CryptoWaley Media Channel goes beyond boundaries, extending our reach to every corner of the nation. From the bustling streets of Delhi to the vibrant tech hubs of Bengaluru and beyond, we ensure that no city is left uncovered. Experience firsthand accounts, interviews, and insights from the web3 revolution happening across metro cities, empowering you with a panoramic view of India's crypto landscape.        "
+        para1 = "Explore our nationwide coverage →"      
       />
     </div>
   );
