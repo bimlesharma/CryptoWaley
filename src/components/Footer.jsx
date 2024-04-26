@@ -1,5 +1,8 @@
 import React from "react";
 import CW from "../assets/CW.png";
+
+import NavButton from "./NavButton";
+
 import {
   FaFacebookF,
   FaInstagram,
@@ -7,126 +10,77 @@ import {
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
-    <footer id="footer" className="bg-white text-black py-12 md:py-16 px-5 md:px-10 lg:px-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-          {/* Left Section */}
-          <div className="left">
-            <img src={CW} alt="Company Logo" className="h-12 md:h-14 mt-5" />
-            <div className="details my-8">
-              <div className="address">
-                {/* <h3 className="font-bold text-md md:text-lg">Address:</h3> */}
-                {/* <p className="text-md md:text-lg">Lorem ipsum dolor sit amet.</p> */}
-              </div>
+    <footer
+      id="footer"
+      className="bg-black text-white py-8 md:py-10 px-5 md:px-10 lg:px-10"
+    >
+      <hr />
+      <div className="container mx-auto sm:px-6 flex flex-col md:flex-row justify-between items-center">
+
+          <div className="left mt-10 md:mt-0">
+            <img src={CW} alt="Company Logo" className="h-40 p-1 bg-white" />
+          </div>
+
+          <div className="mid">
+            <div className="details mb-8">
               <div className="contact mt-4">
-                <h3 className="font-bold text-md md:text-lg">Contact:</h3>
-                {/* <p className="text-md md:text-lg underline">+91 1234567899</p> */}
-                <a href="mailto:cryptowaleyofficial@gmail.com" type="email" className="text-md md:text-lg underline">
+                <h3 className="font-bold text-md md:text-lg text-center md:text-left">Contact:</h3>
+                <a
+                  href="mailto:cryptowaleyofficial@gmail.com"
+                  type="email"
+                  className="text-md md:text-lg underline"
+                >
                   cryptowaleyofficial@gmail.com
                 </a>
               </div>
             </div>
-            <div className="socials flex mt-4 md:mt-6">
-              {/* <a href="https://www.linkedin.com/company/cryptowaley/">
-                <FaFacebookF className="mr-4 size-6 md:size-7" />
-              </a> */}
+            <div className="socials flex items-center justify-center">
               <a href="https://www.instagram.com/cryptowaley_" target="_blank">
-              <FaInstagram className="mr-4 size-6 md:size-7" />
+                <FaInstagram className="mr-4 size-6 md:size-7 hover:text-[#cd486b]" />
               </a>
               <a href="https://twitter.com/cryptowaley" target="_blank">
-              <FaTwitter className="mr-4 size-6 md:size-7" />
+                <FaXTwitter  className="mr-4 size-6 md:size-7 hover:text-gray-600" />
               </a>
-              <a href="https://www.linkedin.com/company/cryptowaley/" target="_blank">
-              <FaLinkedin className="mr-4 size-6 md:size-7" />
+              <a
+                href="https://www.linkedin.com/company/cryptowaley/"
+                target="_blank"
+              >
+                <FaLinkedin className="mr-4 size-6 md:size-7 hover:text-[#0077b5]" />
               </a>
               <a href="http://www.youtube.com/@cryptowaley/" target="_blank">
-              <FaYoutube className="mr-4 size-6 md:size-7" />
+                <FaYoutube className="mr-4 size-6 md:size-7 hover:text-[#FF0000]" />
               </a>
             </div>
           </div>
 
-          {/* Right Section */}
-          <div className="right flex flex-co md:flex-row justify-between">
-            {/* Menu Columns */}
-            <div className="mx- md:mx-0">
-              {/* <h4 className="font-semibold text-xs md:text-sm mb-4">Quick Links</h4> */}
-              <ul className="text-md md:text-lg">
-                <li className="my-2">
-                  <a href="#">Home</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">About</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">Services</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">Portfolio</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div className="mx- md:mx-0">
-              {/* <h4 className="font-semibold text-xs md:text-sm mb-4">Account</h4> */}
-              <ul className="text-md md:text-lg">
-                <li className="my-2">
-                  <a href="#">Features</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">Sign In</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">Sign Up</a>
-                </li>
-              </ul>
-            </div>
-            <div className="mx- md:mx-0">
-              {/* <h4 className="font-semibold text-xs md:text-sm mb-4">Resources</h4> */}
-              <ul className="text-md md:text-lg">
-                <li className="my-2">
-                  <a href="#">Style Guide</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">Changelog</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">Licenses</a>
-                </li>
-                <li className="my-2">
-                  <a href="#">More Templates</a>
-                </li>
-              </ul>
+          <div className="right mt-3 ">
+            <div className="text-black py-4 text-right text-lg">
+              <li className="text-center md:text-right">
+                <NavButton data="Features" id="features" />
+              </li>
+              <li className="text-center md:text-right">
+                <NavButton data="About us" id="about" />
+              </li>
+              <li className="text-center md:text-right">
+                <NavButton data="Testimonial" id="testimonial" />
+              </li>
+              <li className="text-center md:text-right">
+                <NavButton data="Stats" id="stats" />
+              </li>
+              <li className="text-center md:text-right">
+                <NavButton data="Team" id="team" />
+              </li>
+              <li className="text-center md:text-right">
+                <NavButton data="Contact" id="footer" />
+              </li>
             </div>
           </div>
-        </div>
 
-        {/* Bottom Section */}
-        {/* <div className="flex flex-col md:flex-row justify-between items-center mt-8 gap-2 text-sm md:text-md">
-          <p>© 2024 CryptoWaley</p>
-          <p>
-            Developed by{" "}
-            <a
-              href="https://github.com/bimlesharma/"
-              className="underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Bimlesh
-            </a>{" "}
-            - Using ReactJs
-          </p>
-          <ul className="flex text-xs">
-            <li className="mr-3 underline">Privacy Policy</li>
-            <li className="mr-3 underline">Terms of Service</li>
-            <li className="underline">Cookies Settings</li>
-          </ul>
-        </div> */}
       </div>
     </footer>
   );

@@ -11,7 +11,7 @@ const NavButton = (props) => {
   };
   return (
     <button
-      className="hover:text-white lg:text-gray-300  text-lg  cursor-pointer "
+      className="hover:text-white font-sans font-normal text-white lg:text-gray-200  text-lg  cursor-pointer "
       onClick={handleClickScroll}
     >
       {props.data}
