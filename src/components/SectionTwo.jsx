@@ -29,8 +29,8 @@ function SectionTwo() {
     slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 500,
-    autoplaySpeed:1500,
+    speed: 2000,
+    autoplaySpeed:2000,
     cssEase: "linear"
   };
   return (
