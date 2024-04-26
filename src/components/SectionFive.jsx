@@ -7,6 +7,7 @@ const SectionFive = () => {
   return (
     <div id="stats" className="bg-white text-black py-10 flex flex-col md:flex-row justify-center items-center gap-8 px-6 lg:px-20">
       {/* Left Section */}
+
       <div className="left md:w-1/2 ">
         <h1 className="text-3xl lg:text-4xl font-bold text-center md:text-left">
           An award-winning media intelligence solution
@@ -17,11 +18,11 @@ const SectionFive = () => {
         </p>
         <div className="flex justify-center md:justify-start ">
           {/* Display BrandIcons */}
-          {[1, 2, 3].map((item) => (
+          {/* {[1, 2, 3].map((item) => (
             <div key={item} className="mr md">
               <BrandIcon icon={performer} height={"h-32"} />
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
 

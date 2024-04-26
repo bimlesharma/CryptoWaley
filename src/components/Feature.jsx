@@ -22,7 +22,7 @@ function Feature({ heading, para0, para1, img }) {
       {/* Right Section */}
       <div className=" right md:w-1/2 lg:w-1/3  w-full flex justify-center md:justify-end">
         <div
-          className="w-full sm:w-96 rounded-xl h-80 sm:h-96 bg-cover bg-center md:hover:scale-[1.05] hover:shadow-lg transition duration-300 ease-in-out"
+          className="w-full  sm:w-96 md:w-full rounded-xl h-80 sm:h-96 bg-cover bg-center md:hover:scale-[1.05] hover:shadow-lg transition duration-300 ease-in-out"
           style={{ backgroundImage: ` url(${img})` }}
         >
           {/* <img src={img} alt="feature-img" className="w-full" /> */}
