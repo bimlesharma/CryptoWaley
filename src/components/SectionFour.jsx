@@ -10,13 +10,13 @@ import RoundedBox from "./RoundedBox";
 
 const SectionFour = () => {
   return (
-    <div id="about" className="px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center bg-white text-black">
+    <div id="about" className="px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center  text-white bg-black bg-gradient-to-r from-black via-black  to-[rgba(47,40,255,0.5)] ">
       <h1 className="leading-none md:text-[3rem] text-4xl font-bold text-center">
         Trusted by the world's largest companies
       </h1>
 
       {/* Video Section */}
-      <div className="video flex justify-center w-full md:w-[60vw] my-10 rounded-2xl border-spacing-5 bg-blue-50 p-1">
+      <div className="video flex justify-center w-full md:w-[60vw] my-10 rounded-2xl border-spacing-5 bg-blue-50/5 p-1">
         <video
           src={intro}
           controls={false}
