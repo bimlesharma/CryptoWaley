@@ -25,9 +25,9 @@ const Footer = () => {
               <div className="contact mt-4">
                 <h3 className="font-bold text-md md:text-lg">Contact:</h3>
                 {/* <p className="text-md md:text-lg underline">+91 1234567899</p> */}
-                <p className="text-md md:text-lg underline">
+                <a href="mailto:cryptowaleyofficial@gmail.com" type="email" className="text-md md:text-lg underline">
                   cryptowaleyofficial@gmail.com
-                </p>
+                </a>
               </div>
             </div>
             <div className="socials flex mt-4 md:mt-6">
@@ -37,7 +37,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/cryptowaley_" target="_blank">
               <FaInstagram className="mr-4 size-6 md:size-7" />
               </a>
-              <a href="https://twitter.com/cryptowaley/" target="_blank">
+              <a href="https://x.com/cryptowaley" target="_blank">
               <FaTwitter className="mr-4 size-6 md:size-7" />
               </a>
               <a href="https://www.linkedin.com/company/cryptowaley/" target="_blank">
