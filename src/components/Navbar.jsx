@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import cw from "../assets/CW.png";
 import Button from "./Button";
@@ -35,60 +34,37 @@ function Navbar() {
 
       {/* Normal Menu for Larger Screens */}
       <div className="hidden md:flex justify-center items-center space-x-6">
-
-        <NavButton data="Features" id="features"/>
-        <NavButton data="About us" id="about"/>
-        <NavButton data="Testimonial" id="testimonial"/>
-        <NavButton data="Stats" id="stats"/>
-        <NavButton data="Team" id="team"/>
-        <NavButton data="Contact" id="footer"/>
-        
+        <NavButton data="Features" id="features" />
+        <NavButton data="About us" id="about" />
+        <NavButton data="Testimonial" id="testimonial" />
+        <NavButton data="Stats" id="stats" />
+        <NavButton data="Team" id="team" />
+        <NavButton data="Contact" id="footer" />
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden absolute flex justify-end -ml-6 top-[10vh] w-full h-screen  p-5 text-white z-20 transition-opacity duration-300 opacity-100 bg-gradient-to-r from-[rgba(0,0,0,.3)] via-[rgba(0,0,0,0.8)]  to-[#181481]">
           <ul className="text-cente py-4 text-right text-xl mr-0 mt-5">
-            <li>
-              <a href="/" className="block py-5 hover:text-gray-300">
-                Features
-              </a>
+            <li className="block py-5 text-white">
+              <NavButton data="Features" id="features" />
             </li>
-            <li>
-              <a href="/" className="block py-5 hover:text-gray-300">
-                About us
-              </a>
+            <li className="block py-5 text-white">
+              <NavButton data="About us" id="about" />
             </li>
-            <li>
-              <a href="/" className="block py-5 hover:text-gray-300">
-                Pricing
-              </a>
+            <li className="block py-5 text-white">
+              <NavButton data="Testimonial" id="testimonial" />
             </li>
-            <li>
-              <a href="/" className="block py-5 hover:text-gray-300">
-                Blog
-              </a>
+            <li className="block py-5 text-white">
+              <NavButton data="Stats" id="stats" />
             </li>
-            <li>
-              <a href="/" className="block py-5 hover:text-gray-300">
-                Contact
-              </a>
+            <li className="block py-5 text-white">
+              <NavButton data="Team" id="team" />
             </li>
-            {/* <li>
-              <a href="/" className="block py-5 hover:text-gray-300">
-                Cart
-              </a>
+            <li className="block py-5 text-white">
+            <NavButton data="Contact" id="footer" />
             </li>
-            <li>
-              <a href="/" className="block py-5 hover:text-gray-300">
-                Login
-              </a>
-            </li>
-            <li>
-              <a href="/" className="block py-5 hover:text-gray-300">
-                Get started
-              </a>
-            </li> */}
+            
           </ul>
         </div>
       )}
