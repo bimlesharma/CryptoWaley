@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import cw from "../assets/CW.png";
+import cwlogo from "/assets/img/logo.png";
 import Button from "./Button";
 import { MdShoppingCart } from "react-icons/md";
 import { RiUser6Line } from "react-icons/ri";
@@ -17,7 +18,7 @@ function Navbar() {
     <div className="text-white absolute w-full font-bold bg-transparent flex justify-between items-center h-[10vh] px-6 md:px-10 lg:px-20">
       <div className="left">
         <a href="/" className="h-12">
-          <img src={cw} alt="" className="h-12" />
+          <img src={cwlogo} alt="" className="h-16" />
         </a>
       </div>
 
