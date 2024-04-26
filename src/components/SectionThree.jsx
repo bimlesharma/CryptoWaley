@@ -17,7 +17,7 @@ function SectionThree() {
       <Feature 
         img = {group}
         heading = "Exclusive Interviews with Industry Icons"
-        para0 = "we bring you exclusive interviews with renowned personalities who are shaping the future of the web3 and crypto space. From thought leaders to innovators, we delve deep into their insights, experiences, and visions for the decentralized future. Get inspired by conversations with luminaries such as Mario Nawfal, Ajeet Khurana, Sumit Gupta, and more.        "
+        para0 = "We bring you exclusive interviews with renowned personalities who are shaping the future of the web3 and crypto space. From thought leaders to innovators, we delve deep into their insights, experiences, and visions for the decentralized future. Get inspired by conversations with luminaries such as Mario Nawfal, Ajeet Khurana, Sumit Gupta, and more."
         para1 = "Explore our interviews → "        
       />
       <Feature 

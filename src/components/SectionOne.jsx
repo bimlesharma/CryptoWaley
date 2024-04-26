@@ -1,6 +1,7 @@
 import Button from "./Button";
 import ButtonBlue from "./ButtonBlue";
 import cw from "../assets/CW.png";
+import logosvg from "/assets/img/logo.svg";
 
 
 function SectionOne() {
@@ -23,7 +24,7 @@ function SectionOne() {
         </div>
       </div>
       <div className="right p-5  lg:w-full w-[80%] h-[40%] mb-14 md:mb-0">
-        <img src={cw} alt="side-img" />
+        <img src={logosvg} alt="side-img" />
       </div>
       
     </div>

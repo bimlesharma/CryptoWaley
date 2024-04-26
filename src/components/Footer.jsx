@@ -2,6 +2,8 @@ import React from "react";
 import CW from "../assets/CW.png";
 
 import NavButton from "./NavButton";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 import {
   FaFacebookF,
@@ -40,6 +42,9 @@ const Footer = () => {
               </div>
             </div>
             <div className="socials flex items-center justify-center">
+              <a href="https://chat.whatsapp.com/J3Q3tSbSrLZCcJFuPKB4a2" target="_blank">
+                <FaWhatsapp className="mr-4 size-6 md:size-7 hover:text-[#25D366]" />
+              </a>
               <a href="https://www.instagram.com/cryptowaley_" target="_blank">
                 <FaInstagram className="mr-4 size-6 md:size-7 hover:text-[#cd486b]" />
               </a>
