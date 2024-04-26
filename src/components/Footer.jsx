@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="socials flex items-center justify-center">
-              <a href="https://chat.whatsapp.com/J3Q3tSbSrLZCcJFuPKB4a2" target="_blank">
+              <a href="https://chat.whatsapp.com/IUOl4OKTu5U0x0iFuyirY7" target="_blank">
                 <FaWhatsapp className="mr-4 size-6 md:size-7 hover:text-[#25D366]" />
               </a>
               <a href="https://www.instagram.com/cryptowaley_" target="_blank">
