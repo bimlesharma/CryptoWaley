@@ -10,12 +10,12 @@ const SectionFive = () => {
 
       <div className="left md:w-1/2 ">
         <h1 className="text-3xl lg:text-4xl font-bold text-center md:text-left">
-          An award-winning media intelligence solution
+        Unparalleled Media Intelligence and Marketing Solutions in the Thriving Web3 Landscape.
         </h1>
-        <p className="text-md my-5 text-center md:text-left">
+        {/* <p className="text-md my-5 text-center md:text-left">
           Confirmed as a high-performing product by customers and tech experts
           in various industries.
-        </p>
+        </p> */}
         <div className="flex justify-center md:justify-start ">
           {/* Display BrandIcons */}
           {/* {[1, 2, 3].map((item) => (

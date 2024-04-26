@@ -9,12 +9,13 @@ function Feature({ heading, para0, para1, img }) {
       {/* Left Section */}
       <div className="left w-full md:w-1/2 lg:w-2/3 md:mr-12 mb-8 md:mb-0">
         <div className="md:max-w-2xl ">
-          <p className="font-bold text-gray-400 mb-6 md:mb-10 uppercase">services</p>
+          <div className="mb-6 md:mb-10"></div>
+          {/* <p className="font-bold text-gray-400 mb-6 md:mb-10 uppercase">services</p> */}
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-none text-grad">
             {heading}
           </h1>
           <p className="text-lg md:text-xl leading-6 my-4 md:my-8">{para0}</p>
-          <a href="https://www.youtube.com/@cryptowaley" target="_blank" className="text-lg md:text-xl leading-6 my-4 md:my-8">{para1}</a>
+          <a href="https://www.youtube.com/@cryptowaley" target="_blank" className="text-lg md:text-xl text-blue-600 underline leading-6 my-4 md:my-8">{para1}</a>
           {/* <Button data="Get Started" /> */}
         </div>
       </div>

@@ -17,13 +17,13 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="bg-black text-white py-8 md:py-10 px-5 md:px-10 lg:px-10"
+      className="bg-black text-white py-8 md:py-14 px-5 md:px-10 lg:px-10"
     >
-      <hr />
-      <div className="container mx-auto sm:px-6 flex flex-col md:flex-row justify-between items-center">
+      {/* <hr /> */}
+      <div className="container mx-auto  sm:px-6 flex flex-col md:flex-row justify-between items-center">
 
           <div className="left mt-10 md:mt-0">
-            <img src={CW} alt="Company Logo" className="h-40 p-1 bg-white" />
+            <img src={CW} alt="Company Logo" className="h-40 bg-white" />
           </div>
 
           <div className="mid">
