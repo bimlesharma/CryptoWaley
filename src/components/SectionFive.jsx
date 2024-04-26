@@ -31,19 +31,19 @@ const SectionFive = () => {
         {/* Statistics */}
         <div className="stats">
           <h1 className="text-4xl lg:text-6xl font-bold">50+</h1>
-          <p className="text-sm my-3">meetups attended</p>
+          <p className="text-sm my-3">Meetups attended</p>
         </div>
         <div className="stats">
           <h1 className="text-4xl lg:text-6xl font-bold">30+</h1>
-          <p className="text-sm my-3">media partnerships</p>
+          <p className="text-sm my-3">Media partnerships</p>
         </div>
         <div className="stats">
           <h1 className="text-4xl lg:text-6xl font-bold">125+</h1>
-          <p className="text-sm my-3">interviews published</p>
+          <p className="text-sm my-3">Interviews published</p>
         </div>
         <div className="stats">
           <h1 className="text-4xl lg:text-6xl font-bold">10+</h1>
-          <p className="text-sm my-3">cities covered</p>
+          <p className="text-sm my-3">Cities covered</p>
         </div>
       </div>
     </div>
