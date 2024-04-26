@@ -42,8 +42,8 @@ const SectionFive = () => {
           <p className="text-sm my-3">interviews published</p>
         </div>
         <div className="stats">
-          <h1 className="text-4xl lg:text-6xl font-bold">4.9/5</h1>
-          <p className="text-sm my-3">average rating review score</p>
+          <h1 className="text-4xl lg:text-6xl font-bold">10+</h1>
+          <p className="text-sm my-3">cities covered</p>
         </div>
       </div>
     </div>

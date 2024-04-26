@@ -49,7 +49,7 @@ const SectionFour = () => {
         <BrandIcon icon={logo5} height="h-28 xl:hidden" /> 
       </div> */}
 
-      <div id="testimonial" data-theme="dark" className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full ">
+      <div id="testimonial" data-theme="light" className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full ">
         <Tweet id="1739587132102938719" />
         <Tweet id="1766504362074157188" />
         <Tweet id="1774421020679852270" />
