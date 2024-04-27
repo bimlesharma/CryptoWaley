@@ -15,7 +15,7 @@ function SectionSix() {
       <div className=" bg-white text-black py-12 md:p-10 p-5 lg:p-20 gap-5 md:gap-8 lg:gap-20 flex flex-col md:flex-row justify-center items-center">
       <Cards 
         heading={'Rishabh Singhal'}
-        p={"#Crypto 🇮🇳 || Founder @cryptowaley || Strategist @Dpadfinance in 2022"}
+        p={"CEO of CryptoWaley | Ambassador <a target='_blank' href='https://twitter.com/QBlockchain'>@QBlockchain</a>"}
         img = {rishabh}
         URL={"https://twitter.com/rishabhsrishi"}
       />
