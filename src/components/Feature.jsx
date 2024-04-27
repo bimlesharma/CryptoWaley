@@ -16,7 +16,7 @@ function Feature({ heading, para0, para1, img }) {
           </h1>
           <div className="text-lg md:text-xl leading-6 my-4 md:my-8" dangerouslySetInnerHTML={{ __html: para0 }} />
           {/* <p className="text-lg md:text-xl leading-6 my-4 md:my-8">{para0}</p> */}
-          <a href="https://www.youtube.com/@cryptowaley" target="_blank" className="text-lg md:text-xl text-blue-600 underline leading-6 my-4 md:my-8">{para1}</a>
+          <a href="https://www.youtube.com/@cryptowaley" target="_blank" className="text-lg md:text-xl text-[#7385ff] underline leading-6 my-4 md:my-8">{para1}</a>
           {/* <Button data="Get Started" /> */}
         </div>
       </div>
