@@ -30,11 +30,11 @@ const SectionFive = () => {
       <div className="right w-full px-4 md:px-0 md:w-1/2 grid grid-cols-2 gap-8 text-right">
         {/* Statistics */}
         <div className="stats">
-          <h1 className="text-4xl lg:text-6xl font-bold">50+</h1>
+          <h1 className="text-4xl lg:text-6xl font-bold">100+</h1>
           <p className="text-sm my-3">Meetups attended</p>
         </div>
         <div className="stats">
-          <h1 className="text-4xl lg:text-6xl font-bold">30+</h1>
+          <h1 className="text-4xl lg:text-6xl font-bold">150+</h1>
           <p className="text-sm my-3">Media partnerships</p>
         </div>
         <div className="stats">
@@ -42,7 +42,7 @@ const SectionFive = () => {
           <p className="text-sm my-3">Interviews published</p>
         </div>
         <div className="stats">
-          <h1 className="text-4xl lg:text-6xl font-bold">10+</h1>
+          <h1 className="text-4xl lg:text-6xl font-bold">45+</h1>
           <p className="text-sm my-3">Cities covered</p>
         </div>
       </div>
