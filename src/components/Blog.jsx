@@ -22,7 +22,7 @@ const Blog = () => {
                         <h1 className='text-3xl my-2 font-bold'>{post.title}</h1>
                         <p className='text-sm'>By {post.author} on {post.date}</p>
                         <p>{post.content}</p>
-                        <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en">Bitmart.</a></p>
+                        <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en" target='_blank'>Bitmart.</a></p>
                         <h2 className='text-2xl my-2 font-bold'>{post.sub_title1}</h2>
                         <p>{post.content1}</p>
                         <div className='flex justify-center'>
@@ -40,7 +40,7 @@ const Blog = () => {
                     <div className='flex justify-center'>
                         <img className='rounded-xl my-2 md:w-[50%] w-full' src={post.image1} alt={post.title} />
                     </div>
-                    <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en">Bitmart.</a></p>
+                    <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en" target='_blank'>Bitmart.</a></p>
                     
                 </div>
                 ))}
