@@ -1,5 +1,6 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import Navbar from './components/Navbar'
 import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
@@ -9,20 +10,40 @@ import SectionFive from './components/SectionFive'
 import SectionSix from './components/SectionSix'
 import SectionSeven from './components/SectionSeven'
 import Footer from './components/Footer'
+import Blog from './components/Blog'
 
 function App () {
 
   return (
     <>
+    <div>
       <Navbar />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree /> 
-      <SectionFour />
-      <SectionFive />
-      <SectionSix />
-      {/* <SectionSeven /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <SectionOne />
+              <SectionTwo />
+              <SectionThree />
+              <SectionFour />
+              <SectionFive />
+              <SectionSix />
+              {/* <SectionSeven /> */}
+            </>
+          } />
+          <Route
+          path='/blog'
+          element={
+            <div>
+              <Blog/>
+            </div>
+          }>
+          </Route>
+        </Routes>
+      </BrowserRouter>
       <Footer />
+    </div>
+      
     </>
   );
 }

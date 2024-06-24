@@ -41,6 +41,7 @@ function Navbar() {
         <NavButton data="Stats" id="stats" />
         <NavButton data="Team" id="team" />
         <NavButton data="Contact" id="footer" />
+        <NavButton data="Blogs" id="blog" />
       </div>
 
       {/* Mobile Menu */}
@@ -63,7 +64,10 @@ function Navbar() {
               <NavButton data="Team" id="team" />
             </li>
             <li className="block py-5 text-white">
-            <NavButton data="Contact" id="footer" />
+              <NavButton data="Contact" id="footer" />
+            </li>
+            <li className="block py-5 text-white">
+              <NavButton data="Blogs" id="blog" />
             </li>
             
           </ul>

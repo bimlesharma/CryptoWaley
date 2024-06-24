@@ -5,6 +5,8 @@ const NavButton = (props) => {
     const element = document.getElementById(props.id);
     if (props.id === "home") {
       document.documentElement.scroll({ top: 0, behavior: "smooth" });
+    } else if (props.id === "blog") {
+      window.open("/blog", "_blank");
     } else if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
