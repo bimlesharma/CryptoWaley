@@ -35,6 +35,7 @@ function Navbar() {
 
       {/* Normal Menu for Larger Screens */}
       <div className="hidden md:flex justify-center items-center space-x-6">
+        <NavButton data="Home" id="home" />
         <NavButton data="Features" id="features" />
         <NavButton data="About us" id="about" />
         <NavButton data="Testimonial" id="testimonial" />
@@ -48,25 +49,28 @@ function Navbar() {
       {isOpen && (
         <div className="md:hidden absolute flex justify-end -ml-6 top-[10vh] w-full h-screen  p-5 text-white z-20 transition-opacity duration-300 opacity-100 bg-gradient-to-r from-[rgba(0,0,0,.3)] via-[rgba(0,0,0,0.8)]  to-[#181481]">
           <ul className="text-cente py-4 text-right text-xl mr-0 mt-5">
-            <li className="block py-5 text-white">
+            <li className="block py-3 text-white">
+              <NavButton data="Home" id="home" />
+            </li>
+            <li className="block py-3 text-white">
               <NavButton data="Features" id="features" />
             </li>
-            <li className="block py-5 text-white">
+            <li className="block py-3 text-white">
               <NavButton data="About us" id="about" />
             </li>
-            <li className="block py-5 text-white">
+            <li className="block py-3 text-white">
               <NavButton data="Testimonial" id="testimonial" />
             </li>
-            <li className="block py-5 text-white">
+            <li className="block py-3 text-white">
               <NavButton data="Stats" id="stats" />
             </li>
-            <li className="block py-5 text-white">
+            <li className="block py-3 text-white">
               <NavButton data="Team" id="team" />
             </li>
-            <li className="block py-5 text-white">
+            <li className="block py-3 text-white">
               <NavButton data="Contact" id="footer" />
             </li>
-            <li className="block py-5 text-white">
+            <li className="block py-3 text-white">
               <NavButton data="Blogs" id="blog" />
             </li>
             

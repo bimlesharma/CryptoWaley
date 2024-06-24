@@ -83,6 +83,9 @@ const Footer = () => {
               <li className="text-center md:text-right">
                 <NavButton data="Contact" id="footer" />
               </li>
+              <li className="text-center md:text-right">
+                <NavButton data="Blog" id="blog" />
+              </li>
             </div>
           </div>
 
