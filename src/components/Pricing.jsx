@@ -2,8 +2,9 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <div>
-            {/* Your component code here */}
+        <div className='h-screen border border-white'>
+            
+            
         </div>
     );
 };
