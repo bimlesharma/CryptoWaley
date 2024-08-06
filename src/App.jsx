@@ -11,6 +11,7 @@ import SectionSix from './components/SectionSix'
 import SectionSeven from './components/SectionSeven'
 import Footer from './components/Footer'
 import Blog from './components/Blog'
+import Pricing from './components/Pricing'
 
 function App () {
 
@@ -36,6 +37,14 @@ function App () {
           element={
             <div>
               <Blog/>
+            </div>
+          }>
+          </Route>
+          <Route
+          path='/pricing'
+          element={
+            <div>
+              <Pricing/>
             </div>
           }>
           </Route>

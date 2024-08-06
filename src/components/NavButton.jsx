@@ -8,6 +8,8 @@ const NavButton = (props) => {
       window.open("/", "_self");
     } else if (props.id === "blog") {
       window.open("/blog", "_self");  
+    } else if (props.id === "pricing") {
+      window.open("/pricing", "_self");  
     } else if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }

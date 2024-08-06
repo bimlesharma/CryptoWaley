@@ -34,7 +34,7 @@ function Navbar() {
       </div>
 
       {/* Normal Menu for Larger Screens */}
-      <div className="hidden md:flex justify-center items-center space-x-6">
+      <div className="hidden md:flex justify-center items-center space-x-5">
         <NavButton data="Home" id="home" />
         <NavButton data="Features" id="features" />
         <NavButton data="About us" id="about" />
@@ -43,6 +43,7 @@ function Navbar() {
         <NavButton data="Team" id="team" />
         <NavButton data="Contact" id="footer" />
         <NavButton data="Blogs" id="blog" />
+        <NavButton data="Pricing" id="pricing" />
       </div>
 
       {/* Mobile Menu */}
@@ -72,6 +73,9 @@ function Navbar() {
             </li>
             <li className="block py-3 text-white">
               <NavButton data="Blogs" id="blog" />
+            </li>
+            <li className="block py-3 text-white">
+              <NavButton data="Pricing" id="pricing" />
             </li>
             
           </ul>
