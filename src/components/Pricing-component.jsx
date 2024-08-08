@@ -54,6 +54,10 @@ const Pricing_component = () => {
                     ))}
                 </div>
             )}
+            <div className='text-center italic'>
+                <p className='text-center mt-4'>FREE Sample Available for both Long and Short Format Content.</p>
+                <p><span className='font-bold'>Custom Packages Available</span> - Let's Talk! We offer a free consultation to discuss your needs and pricing options.</p>
+            </div>
         </div>
     );
 };
