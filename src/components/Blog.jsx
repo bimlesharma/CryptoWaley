@@ -16,7 +16,7 @@ const Blog = () => {
             <div className='lg:mx-8 md:mx-5'>
                 <h1 className='mx-auto text-center text-5xl'>Blog</h1>
                 {posts.map((post) => (
-                    <div className='flex-col md:flex-row items-center gap-5 text-black bg-white border-4 rounded-xl mt-5 p-5' key={post.id}>
+                <div className='flex-col md:flex-row items-center gap-5 text-black bg-white border-4 rounded-xl mt-5 p-5' key={post.id}>
 
                     <div className="content">
                         <h1 className='text-3xl my-2 font-bold'>{post.title}</h1>
