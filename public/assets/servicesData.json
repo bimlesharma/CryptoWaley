@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "service": "Video Editing",
+      "content": "",
+      "price": "$10",
+      "type": "/min (Long format)",
+      "description": "Eg: 4 min. video would cost $40",
+      "price1": "$15",
+      "type1": "/video (Reels/Shorts)",
+      "description1": "Could be 30 Sec. or 60 Sec."
+      
+    },
+    {
+      "id": 2,
+      "service": "Podcast Edit",
+      "content": "",
+      "price": "$70",
+      "type": "(Around 30 min)",
+      "description2": "+ $20 (with Thumbnail)",
+      "price1": "$120",
+      "type1": "(Around 60 min)",
+      "price2": "$170",
+      "type2": "(Around 90 min)"
+      
+    },
+    {
+      "id": 3,
+      "service": "Podcast Shoot",
+      "content": "Delhi/NCR (with setup)",
+      "price": "$50",
+      "type": "/1 Podcast Shoot",
+      "price1": "$80",
+      "type1": "/2 Podcast Shoot",
+      "description2": "Setup : Green Screen with Stand - 1, Mic - Available 2 (1 wireless and 1 with wire), Cameraperson - 1, Monopods and Tripods available - 2"
+      
+    }
+
+  ]
+  
