@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Button from './ButtonBlue';
 
-const Pricing_component = () => {
+const Media_pricing_component = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('/assets/servicesData.json')
+        fetch('/assets/mediaServicesData.json')
             .then((response) => response.json())
             .then((data) => setData(data));
     }, []);
@@ -15,10 +15,10 @@ const Pricing_component = () => {
             {data.length === 0 ? (
                 <p className="text-center text-gray-500">Loading...</p>
             ) : (
-                <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-2 text-xs">
+                <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-5 text-xs">
                     {data.map((service) => (
-                        <div key={service.id} className="text-black flex-col justify-around border-8 border-slate-200 rounded-2xl md:min-h-[60vh] bg-white p-6">
-                            <div className=' h-[80%]'>
+                        <div key={service.id} className="text-slate-700 flex-col justify-around border-8 border-slate-300 rounded-2xl md:min-h-[60vh] bg-slate-100 p-6">
+                            <div className=' h-[85%]'>
                                 <div className='mb-4'>
                                     <h2 className="md:text-3xl text-2xl font-bold">{service.service}</h2>
                                     {service.content && <p className="mb-4 text-sm">{service.content}</p>}
@@ -54,12 +54,9 @@ const Pricing_component = () => {
                     ))}
                 </div>
             )}
-            <div className='text-center italic'>
-                <p className='text-center mt-4'>FREE Sample Available for both Long and Short Format Content.</p>
-                <p><span className='font-bold'>Custom Packages Available</span> - Let's Talk! We offer a free consultation to discuss your needs and pricing options.</p>
-            </div>
+            
         </div>
     );
 };
 
-export default Pricing_component;
+export default Media_pricing_component;

@@ -1,0 +1,95 @@
+[
+    {
+      "id": 1,
+      "service": "Organising Event",
+      "content": "",
+      "price": "$400",
+      "type": "/event",
+      "price1": "",
+      "type1": "",
+      "description1": "Specifications:",
+      "specs0": "1. Co-Working Spaces (DELHI NCR)",
+      "specs1": "2. Snacks- Sandwiches, Beverages (Coffee, Water, Soft Drinks, Tea)",
+      "specs2": "3. Projector Setup",
+      "specs3": "4. 3 Hours",
+      "specs4": "5. Seating Capacity : 50-100"
+
+      
+    },
+    {
+      "id": 2,
+      "service": "Founders and Executive Interviews",
+      "content": "",
+      "subHeading": "(Long Format)",
+      "price": "$100",
+      "type": "/interview",
+      "description": "(Around 5-10 mins)",
+      "price1": "$300",
+      "type1": "/interview",
+      "description1": "(Around 45-60 min)",
+      "specs0": "1. Distribution- Youtube, X, Linkedin, Instagram",
+      "specs1": "2. Collective minimum views on all platform - 10K Views"
+      
+    },
+    {
+      "id": 3,
+      "service": "Founders and Executive Interviews",
+      "content": "",
+      "subHeading": "(Short Format)",
+      "price": "$30",
+      "type": "/video",
+      "description": "Reel/Short with Long Format",
+      "price1": "$50",
+      "type1": "/video",
+      "description1": "Only Reel/Short",
+      "specs0": "1. Distribution- Youtube, X, Linkedin, Instagram",
+      "specs1": "2. Collective minimum views on all platform - 10K Views"
+      
+    },
+    {
+      "id": 4,
+      "service": " Educational Content",
+      "content": "",
+      "subHeading": "",
+      "price": "$200",
+      "type": "/video",
+      "price1": "",
+      "type1": "",
+      "description1": "Specifications:",
+      "specs0": "1. 5-10 Mins Tutorial by CW Presentor of your platform ",
+      "specs1": "2. Min Views - 15K Views"
+      
+    },
+    {
+      "id": 5,
+      "service": "Promotional Opportunities- sponsorships and advertising",
+      "content": "",
+      "subHeading": "",
+      "price": "$500",
+      "type": "/month",
+      "price1": "",
+      "type1": "",
+      "description1": "Specifications:",
+      "specs0": "1. Distribution- Youtube, X, Linkedin, Instagram",
+      "specs1": "2. Brand Graphic in every Video",
+      "specs2": "3. Physical Standees at Events"
+      
+    },
+    {
+      "id": 6,
+      "service": "Thought Leadership Content",
+      "content": "",
+      "subHeading": "",
+      "price": "$25",
+      "type": "/video",
+      "price1": "",
+      "type1": "",
+      "description1": "Specifications:",
+      "specs0": "1. Shoutouts in Between Videos",
+      "specs1": "2. Any one - Youtube, X, Linkedin, Instagram"
+      
+    }
+    
+
+  ]
+  
