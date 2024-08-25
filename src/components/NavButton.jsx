@@ -1,22 +1,29 @@
+
+
+
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const NavButton = (props) => {
+  const navigate = useNavigate();
+
   const handleClickScroll = () => {
-    const element = document.getElementById(props.id);
     if (props.id === "home") {
-      // document.documentElement.scroll({ top: 0, behavior: "smooth" });
-      window.open("/", "_self");
+      navigate("/");
+      document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
     } else if (props.id === "blog") {
-      window.open("/blog", "_self");  
+      navigate("/blog");
     } else if (props.id === "pricing") {
-      window.open("/pricing", "_self");  
-    } else if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      navigate("/pricing");
+    } else {
+      navigate("/", { state: { scrollToId: props.id } });
     }
   };
+  
+
   return (
     <button
-      className="hover:text-white font-sans font-normal text-white lg:text-gray-200  text-lg  cursor-pointer "
+      className="hover:text-white font-sans font-normal text-white lg:text-gray-200 text-lg cursor-pointer"
       onClick={handleClickScroll}
     >
       {props.data}
