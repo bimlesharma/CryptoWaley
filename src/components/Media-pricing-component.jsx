@@ -17,7 +17,7 @@ const Media_pricing_component = () => {
             ) : (
                 <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-5 text-xs">
                     {data.map((service) => (
-                        <div key={service.id} className="text-slate-700 flex-col justify-around border-8 border-slate-300 rounded-2xl md:min-h-[60vh] bg-slate-100 p-6">
+                        <div key={service.id} className="text-slate-700 flex-col justify-between border-8 border-slate-300 rounded-2xl md:min-h- bg-slate-100 p-6">
                             <div className=' h-[85%]'>
                                 <div className='mb-4'>
                                     <h2 className="md:text-3xl text-2xl font-bold">{service.service}</h2>
