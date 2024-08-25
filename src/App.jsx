@@ -1,59 +1,23 @@
+
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Blog from './components/Blog';
+import Pricing from './components/Pricing';
+import Home from './components/Home';
 
-import Navbar from './components/Navbar'
-import SectionOne from './components/SectionOne'
-import SectionTwo from './components/SectionTwo'
-import SectionThree from './components/SectionThree'
-import SectionFour from './components/SectionFour'
-import SectionFive from './components/SectionFive'
-import SectionSix from './components/SectionSix'
-import SectionSeven from './components/SectionSeven'
-import Footer from './components/Footer'
-import Blog from './components/Blog'
-import Pricing from './components/Pricing'
-
-function App () {
-
+function App() {
   return (
-    <>
-    <div>
+    <BrowserRouter>
       <Navbar />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={
-            <>
-              <SectionOne />
-              <SectionTwo />
-              <SectionThree />
-              <SectionFour />
-              <SectionFive />
-              <SectionSix />
-              {/* <SectionSeven /> */}
-            </>
-          } />
-          <Route
-          path='/blog'
-          element={
-            <div>
-              <Blog/>
-            </div>
-          }>
-          </Route>
-          <Route
-          path='/pricing'
-          element={
-            <div>
-              <Pricing/>
-            </div>
-          }>
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/pricing" element={<Pricing />} />
+      </Routes>
       <Footer />
-    </div>
-      
-    </>
+    </BrowserRouter>
   );
 }
 
