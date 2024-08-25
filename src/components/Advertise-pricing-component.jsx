@@ -17,11 +17,11 @@ const Media_pricing_component = () => {
             ) : (
                 <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-5 text-xs">
                     {data.map((service) => (
-                        <div key={service.id} className=" text-slate-800 flex-col justify-around border-8 border-slate-200 rounded-2xl md:min-h-[70vh] bg-white p-6">
+                        <div key={service.id} className=" text-slate-800 flex-col justify-between border-8 border-slate-200 rounded-2xl md:min-h- bg-white p-6">
                             <div className=' lg:h-[85%] md:h-[89%]'>
                                 <div className='mb-4'>
                                     <h2 className="md:text-3xl text-2xl font-bold">{service.service}</h2>
-                                    {service.content && <p className="mb-4 text-sm">{service.content}</p>}
+                                    {service.content && <p className="mb-4 text-sm">{service.content}</p>} 
 
                                 </div>
                                 <div className="space-y-2" >
@@ -60,7 +60,7 @@ const Media_pricing_component = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=' flex justify-end mt-2 md:mt-0'>
+                            <div className=' flex justify-end mt-2 md:mt-4'>
                                 <a className='text-base' href='https://linktr.ee/cryptowaley' target='_blank'>
                                     <Button data="Get started" />
 
