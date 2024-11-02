@@ -52,42 +52,14 @@ const Blog = () => {
                 </div>
                 ))} */}
 
-                {/* BLOG NO. 1 */}
-                <div className='flex-col md:flex-row items-center gap-5 text-black bg-white border-4 rounded-xl mt-5 p-5'>
-
-                    <div className="content">
-                        <h1 className='text-3xl my-2 font-bold'>PEPE: The King of MemesCoins</h1>
-                        <p className='text-sm'>By CryptoWaley on 24-06-2024</p>
-                        {/* <p>content</p> */}
-                        <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en" target='_blank'>Bitmart.</a></p>
-                        <h2 className='text-2xl my-2 font-bold'>Introduction</h2>
-                        <p>PEPE, the internet’s favorite frog, is making waves in the memecoin world. As we enter a new era of digital finance, this meme legend is set to dominate. This article, crafted by Cryptowaley and Bitmart, explores why PEPE has what it takes to lead the memecoin market.</p>
-                        <div className='flex justify-center'>
-                            <img className='rounded-xl border-2 my-2 md:w-[50%] w-full' src={b1img} alt="PEPE: The King of MemesCoins" />
-                        </div>
-                        <h2 className='text-2xl my-2 font-bold'>Financial Landscape: Betting on Memes</h2>
-                        <p>Today’s financial scene is tough. With social mobility at a low, many turn to high-risk bets, including memecoins, hoping for a big win. Memecoins like Dogecoin and Shiba Inu rose only after Bitcoin and Ethereum soared. But this time, memecoins are leading the charge.</p>
-                        <h2 className='text-2xl my-2 font-bold'>Why PEPE Stands Out</h2>
-                        <p>PEPE isn't just a crypto meme; it’s a global icon. Created in 2005 by Matt Furie for *Boys Club*, PEPE exploded on 4chan and quickly became a social media sensation. Despite a rocky history, including being hijacked by the alt-right, PEPE’s image has been reclaimed and celebrated worldwide.</p>
-                        <h2 className='text-2xl my-2 font-bold'>PEPE’s Unique Edge</h2>
-                        <p>Unlike other memecoins, PEPE’s appeal reaches beyond crypto enthusiasts. Everyone from your grandma to your neighbor’s dog knows PEPE. Its universal presence and rich history give it an edge. People love familiarity, and PEPE is a meme for every mood—sad, happy, rich, poor.</p>
-                        <h2 className='text-2xl my-2 font-bold'>Conclusion</h2>
-                        <p>With memecoins blazing a new trail, PEPE’s deep cultural roots and widespread recognition make it a prime candidate for the top spot. As the crypto market grows, don’t be surprised if PEPE becomes the first memecoin to hit the $100 billion mark. Get ready for PEPE to rule the memecoin kingdom!</p>
-                    </div>
-                    <div className='flex justify-center'>
-                        <img className='rounded-xl my-2 md:w-[50%] w-full' src={b1img1} alt="PEPE: The King of MemesCoins" />
-                    </div>
-                    <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en" target='_blank'>Bitmart.</a></p>
-
-                </div>
-
+                
 
 
                 {/* BLOG NO. 2 */}
                 <div className='flex-col md:flex-row items-center gap-5 text-black bg-white border-4 rounded-xl mt-5 p-5'>
 
                     <div className="content">
-                        <h1 className='text-3xl my-2 font-bold'>Global Web3 Stakeholders to Explore Collaboration with Indian Tech Ecosystem at India Blockchain Week 2024 </h1>
+                        <h1 className='text-3xl my-2 font-bold'>Press Release: Global Web3 Stakeholders to Explore Collaboration with Indian Tech Ecosystem at India Blockchain Week 2024</h1>
                         <p className='text-sm'>By CryptoWaley on 02-11-2024</p>
                         <p className=' my-6'><b>Bangalore, 15th October 2024:</b> Top international Web3 players are coming to India Blockchain Week (IBW) from 30th November to 8th December 2024 in Bangalore, to foster purposeful collaboration with the Indian innovation ecosystem. Returning this year with over 100 exciting events, IBW is the country’s first-ever multi-chain platform catalyzing mass adoption of blockchain innovation across industries. Some of the events include the flagship IBW Conference, IBW chain-agnostic Hackathon, IBW Web3 Demo Day, ETH India Hackathon, and more, bringing together the brightest minds in the Web3 ecosystem along with policymakers to create a conducive environment for cross-border partnerships.</p>
                         {/* <h2 className='text-2xl my-2 font-bold'>Introduction</h2> */}
@@ -119,6 +91,39 @@ const Blog = () => {
                     {/* <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en" target='_blank'>Bitmart.</a></p> */}
 
                 </div>
+
+
+
+
+                {/* BLOG NO. 1 */}
+                <div className='flex-col md:flex-row items-center gap-5 text-black bg-white border-4 rounded-xl mt-5 p-5'>
+
+                    <div className="content">
+                        <h1 className='text-3xl my-2 font-bold'>PEPE: The King of MemesCoins</h1>
+                        <p className='text-sm'>By CryptoWaley on 24-06-2024</p>
+                        {/* <p>content</p> */}
+                        <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en" target='_blank'>Bitmart.</a></p>
+                        <h2 className='text-2xl my-2 font-bold'>Introduction</h2>
+                        <p>PEPE, the internet’s favorite frog, is making waves in the memecoin world. As we enter a new era of digital finance, this meme legend is set to dominate. This article, crafted by Cryptowaley and Bitmart, explores why PEPE has what it takes to lead the memecoin market.</p>
+                        <div className='flex justify-center'>
+                            <img className='rounded-xl border-2 my-2 md:w-[50%] w-full' src={b1img} alt="PEPE: The King of MemesCoins" />
+                        </div>
+                        <h2 className='text-2xl my-2 font-bold'>Financial Landscape: Betting on Memes</h2>
+                        <p>Today’s financial scene is tough. With social mobility at a low, many turn to high-risk bets, including memecoins, hoping for a big win. Memecoins like Dogecoin and Shiba Inu rose only after Bitcoin and Ethereum soared. But this time, memecoins are leading the charge.</p>
+                        <h2 className='text-2xl my-2 font-bold'>Why PEPE Stands Out</h2>
+                        <p>PEPE isn't just a crypto meme; it’s a global icon. Created in 2005 by Matt Furie for *Boys Club*, PEPE exploded on 4chan and quickly became a social media sensation. Despite a rocky history, including being hijacked by the alt-right, PEPE’s image has been reclaimed and celebrated worldwide.</p>
+                        <h2 className='text-2xl my-2 font-bold'>PEPE’s Unique Edge</h2>
+                        <p>Unlike other memecoins, PEPE’s appeal reaches beyond crypto enthusiasts. Everyone from your grandma to your neighbor’s dog knows PEPE. Its universal presence and rich history give it an edge. People love familiarity, and PEPE is a meme for every mood—sad, happy, rich, poor.</p>
+                        <h2 className='text-2xl my-2 font-bold'>Conclusion</h2>
+                        <p>With memecoins blazing a new trail, PEPE’s deep cultural roots and widespread recognition make it a prime candidate for the top spot. As the crypto market grows, don’t be surprised if PEPE becomes the first memecoin to hit the $100 billion mark. Get ready for PEPE to rule the memecoin kingdom!</p>
+                    </div>
+                    <div className='flex justify-center'>
+                        <img className='rounded-xl my-2 md:w-[50%] w-full' src={b1img1} alt="PEPE: The King of MemesCoins" />
+                    </div>
+                    <p>You can buy cryptocurrencies like PEPE on <a className='text-blue-700 font-bold' href="https://www.bitmart.com/invite/7MC9jA/en" target='_blank'>Bitmart.</a></p>
+
+                </div>
+
 
 
             </div>
