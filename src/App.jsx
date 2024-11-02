@@ -7,6 +7,10 @@ import Blog from './components/Blog';
 import Pricing from './components/Pricing';
 import Home from './components/Home';
 
+
+// import ReactGA from 'react-ga4';
+// ReactGA.initialize('G-7CXDB1QJDN');
+
 function App() {
   return (
     <BrowserRouter>
