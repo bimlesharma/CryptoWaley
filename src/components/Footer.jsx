@@ -89,6 +89,9 @@ const Footer = () => {
               <li className="text-center md:text-right">
                 <NavButton data="Pricing" id="pricing" />
               </li>
+              <a href="https://drive.google.com/drive/folders/1-HnyxFaT35uuyeGgHiC8zhJjiI2-FmaI" className="text-center md:text-right">
+                <NavButton data="Media Kit" id="#" />
+              </a>
             </div>
           </div>
 
