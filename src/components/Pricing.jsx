@@ -20,7 +20,7 @@ const Pricing = () => {
                     </div>
                 </div>
 
-                <div className="media-service my-20">
+                {/* <div className="media-service my-20">
                     <h1 className='mx-auto text-center text-5xl'>Media Services</h1>
                     <div className='w-full mt-5 '>
                         <Media_pricing_component />
@@ -30,7 +30,7 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
             </div>
 
         </div>
