@@ -12,6 +12,7 @@ import b2img from '/assets/img/blog2/ibw.jpg';
 import b3img from '/assets/img/blog3/ibw.jpg';
 // import b4img from '/assets/img/blog4/octaloop.avif'
 import b4img from '/assets/img/blog4/ibt25.png'
+import b5img from '/assets/img/blog5/ibw2025.jpg'
 
 
 const Blog = () => {
@@ -60,6 +61,77 @@ const Blog = () => {
                     
                 </div>
                 ))} */}
+
+                {/* BLOG NO. 5 */}
+                <div className='flex-col md:flex-row items-center gap-5 text-black bg-white border-4 rounded-xl mt-5 p-5'>
+                    <div className="content">
+                        <h1 className='text-3xl my-2 font-bold'>Bengaluru Gears Up for IBW2025, India's Biggest Web3 Summit</h1>
+                        <p className='text-sm'>By CryptoWaley on 20-11-2025</p>
+                        
+                        <div className='flex justify-center'>
+                            <img className='rounded-xl border-2 my-2 md:w-[50%] w-full' src={b5img} alt="IBW 2025" />
+                        </div>
+
+                        <p className='my-6'><b>Bengaluru, November 19, 2025:</b> As India strengthens its position as one of the world's fastest-growing markets in the global Web3 economy, India Blockchain Week (IBW 2025) returns for its third and largest edition from December 1–7, 2025. The week-long series will convene global investors, policymakers, and innovators in Bengaluru, with the main IBW 2025 Conference scheduled for December 2–3 at the Sheraton Grand Convention Centre. Binance and Aptos Foundation, globally recognized leaders in blockchain, are Title Sponsors of IBW2025, reinforcing the conference as a hub for Web3 innovation and talent.</p>
+
+                        <p className='my-6'>Renowned for uniting India's Web3 ecosystem with global leaders, IBW 2025 will feature more than 100 side events, workshops, and networking sessions, hosted by organizations including Hashed Emergent, Binance, Aptos Foundation, Polygon, Devfolio, TON, Cardano, and others.</p>
+
+                        <p className='my-6'>With over 1,200 web3 startups, 35 million active crypto users across centralized exchanges, the second largest Web3 developer base, and the highest crypto adoption rate in the world for the third consecutive year, India represents one of the most important markets for the future of crypto. The country's growing founder base and vibrant developer ecosystem reflect a market primed for innovation and growth.</p>
+
+                        <p className='my-6'>Hosted by Hashed Emergent, a web3 venture capital firm dedicated to accelerating mass adoption of web3 in emerging markets, the IBW 2025 Conference will feature 100+ speakers spanning entrepreneurs, policymakers, and investors engaging in keynotes, fireside chats, and debates on the intersections of blockchain, AI, real-world assets (RWA), and regulatory developments.</p>
+
+                        <h2 className='text-2xl my-2 font-bold'>Government Leadership and Support</h2>
+                        <p className='my-6'>Shri Priyank M. Kharge, Minister for Electronics, Information Technology, Biotechnology, and Rural Development & Panchayat Raj, Government of Karnataka will be delivering the opening keynote on Day 2 of the conference. This comes at a pivotal moment when the government of Karnataka has announced a INR 518 Crore Start-up policy 2025-2030 to support the state's innovation ecosystem, including blockchain start-ups.</p>
+
+                        <h2 className='text-2xl my-2 font-bold'>Notable Industry Speakers</h2>
+                        <p className='my-6'>Other notable industry speakers include Sreeram Kannan (Founder & CEO, Eigen Labs), Sandeep Nailwal (Co-Founder, Polygon), Avery Ching (Co-Founder & CEO, Aptos Labs), Kushal Manupati (Regional Growth & Ops Lead of South Asia, Binance), Akshay BD (NCMO, Solana Foundation), Sébastien Borget (Co-Founder & COO, The Sandbox), Mark Rydon (Co-Founder & CEO, Aethir), John O'Loghlen (Managing Director, APAC – Coinbase), Yusuf Goolamabbas (Chief Knowledge Officer, Animoca Brands), Rik Krieger (COO, Trust Wallet), Michael (EVP Strategy & M&A, Ledger), Nikhil Joshi (COO, Emurgo), and Jody Mettler (COO, BitGo).</p>
+
+                        <h2 className='text-2xl my-2 font-bold'>Sponsor Statements</h2>
+                        <p className='my-6'>Speaking ahead of the IBW Conference, <b>Kushal Manupati, Regional Growth & Ops Lead of South Asia at Binance,</b> said <i>"India is home to one of the largest and most dynamic Web3 developer communities in the world, with builders whose innovations are already shaping global blockchain trends. Through the Binance Blockchain Yatra, we actively engage with these founders, witnessing firsthand the creativity, technical brilliance, and ambition fueling this ecosystem. As the Title Sponsor of IBW 2025, Binance is proud to help connect this ingenuity to global networks, empowering the next generation of builders to transform ideas into technologies that will define the future of Web3."</i></p>
+
+                        <p className='my-6'><b>Avery Ching, CEO & Co-Founder at Aptos Labs,</b> said, <i>"India is a key market for Aptos — home to some of our most valued partners, talented builders, and pioneering initiatives. I'm thrilled to join IBW2025 and be part of the country's remarkable Web3 momentum. I look forward to engaging with local innovators and bringing even more impactful, real-world use cases to life in India though Aptos."</i></p>
+
+                        <h2 className='text-2xl my-2 font-bold'>Demo Day and Hackathon</h2>
+                        <p className='my-6'>For Indian Web3 founders, Aptos Foundation and Avalanche will jointly sponsor the IBW Demo Day, offering early-stage startups a platform to present their innovations to global investors. Hashed Emergent will extend up to $250,000 in investment commitments distributed among promising teams.</p>
+
+                        <p className='my-6'><b>Tak Lee, CEO & Managing Partner at Hashed Emergent,</b> said, <i>"This year, IBW Conference is deepening its focus on ecosystem growth by working closely with government bodies, industry associations, startup networks, and universities to expand India's web3 community. The goal is to turn India's growing web3 momentum into a sustained movement that drives innovation, talent, and global leadership."</i></p>
+
+                        <p className='my-6'>The IBW Edition of the Cardano Hackathon Asia 2025 will give startup teams an opportunity to turn their ideas into impactful, ready-to-launch projects. The hackathon not only offers a total prize pool of $65K but also brings expert builders from across the Cardano ecosystem to guide builders from start to finish.</p>
+
+                        <h2 className='text-2xl my-2 font-bold'>Expected Attendance and Sponsors</h2>
+                        <p className='my-6'>This year's event is expected to attract 5,000+ participants from 40+ countries. Attendees will have the opportunity to learn from and engage with stalwarts in blockchain, DeFi, AI, RWAs, and regulatory developments.</p>
+
+                        <p className='my-6'>Other sponsors include, Cardano, Polygon Labs, Bitget, Ledger, Bybit, KGEN, 0G Labs, Bullbit, A7A5, BitGo, XDC Network, Endless Domains, XYO, Coinscope, and The reliable jobs.</p>
+
+                        <h2 className='text-2xl my-2 font-bold'>About India Blockchain Week (IBW)</h2>
+                        <p className='my-6'>India Blockchain Week (IBW) is a movement unifying the Indian Web3 ecosystem and a platform to connect with the global community. It is India's biggest pan-industry series of blockchain and web3 events, spanning from December 1-7 2025 across Bangalore, India. IBW is a week-long array of 100+ web3 events, including flagship events such as the headline IBW Conference, Demo Day and many other side-events, networking events, workshops, parties etc hosted by Indian & global blockchain industry stakeholders.</p>
+
+                        <p className='my-6'>The IBW Conference is the two-day headline event anchoring India Blockchain Week (IBW) on December 2-3, 2025 at the Sheraton Grand, Bangalore and hosted by Hashed Emergent.</p>
+                        
+                        <p className='my-6'>For more information about IBW, visit:</p>
+                        <div className='grid md:grid-cols-4 gap-4 gap-3 w-auto justify-center items-center font-bold'>
+                            <a href="https://indiablockchainweek.com/" className='flex gap-2 justify-center items-center border-2 border-blue-300 rounded hover:bg-blue-300 p-2 px-6'>
+                                <FaGlobe />Website
+                            </a>
+                            <a href="https://twitter.com/IBWofficial" className='flex gap-2 justify-center items-center border-2 border-blue-300 rounded hover:bg-blue-300 p-2 px-6'>
+                                <FaXTwitter />X
+                            </a>
+                            <a href="https://www.linkedin.com/company/ibwofficial/" className='flex gap-2 justify-center items-center border-2 border-blue-300 rounded hover:bg-blue-300 p-2 px-6'>
+                                <FaLinkedin />LinkedIn
+                            </a>
+                            <a href="https://t.me/ibw_official" className='flex gap-2 justify-center items-center border-2 border-blue-300 rounded hover:bg-blue-300 p-2 px-6'>
+                                <FaTelegram />Telegram
+                            </a>
+                        </div>
+
+                        <h2 className='text-2xl my-2 font-bold'>About Hashed Emergent</h2>
+                        <p className='my-6'>Hashed Emergent is the venture capital arm of Hashed, backing builders from India and emerging markets shaping the on-chain frontier. It invests at the earliest stages of a web3 startup's journey, using its expertise, experience, and network to amplify their growth and success. The team is rooted in the cultural hubspots of web3 in emerging markets, spanning across Bangalore, Seoul, Singapore, Lagos and Dubai. Hashed Emergent drives web3 focused ecosystem and community expansion in these markets through its purpose-built initiatives.</p>
+                    </div>
+
+                    <div className='flex justify-center'>
+                        {/* Add an additional image here if needed */}
+                    </div>
+                </div>
 
                 {/* BLOG NO. 4 */}
                 <div className='flex-col md:flex-row items-center gap-5 text-black bg-white border-4 rounded-xl mt-5 p-5'>
