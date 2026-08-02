@@ -1,5 +1,4 @@
-import React from "react";
-import { Tweet } from "react-tweet";
+import React, { useEffect } from "react";
 import CW from "../assets/CW.png";
 import BrandIcon from "./BrandIcon";
 import ButtonBlue from "./ButtonBlue";
@@ -9,6 +8,20 @@ import intro from "/assets/intro.mp4"; // Update import path
 import RoundedBox from "./RoundedBox";
 
 const SectionFour = () => {
+  useEffect(() => {
+    // Load the Twitter widgets script dynamically
+    const script = document.createElement("script");
+    script.src = "https://platform.twitter.com/widgets.js";
+    script.async = true;
+    script.charset = "utf-8";
+    document.body.appendChild(script);
+
+    return () => {
+      // Optional: Cleanup the script when the component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div id="about" className="px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center  text-white bg-black bg-gradient-to-r from-black via-black  to-[rgba(47,40,255,0.5)] ">
       <h1 className="leading-none md:text-[3rem] text-4xl font-bold text-center">
@@ -49,10 +62,22 @@ const SectionFour = () => {
         <BrandIcon icon={logo5} height="h-28 xl:hidden" /> 
       </div> */}
 
-      <div id="testimonial" data-theme="light" className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full ">
-        <Tweet id="1739587132102938719" />
-        <Tweet id="1766504362074157188" />
-        <Tweet id="1774421020679852270" />
+      <div id="testimonial" className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full justify-center">
+        <div className="w-full lg:w-1/3 flex justify-center">
+          <blockquote className="twitter-tweet" data-theme="light">
+            <a href="https://twitter.com/x/status/1739587132102938719"></a>
+          </blockquote>
+        </div>
+        <div className="w-full lg:w-1/3 flex justify-center">
+          <blockquote className="twitter-tweet" data-theme="light">
+            <a href="https://twitter.com/x/status/1766504362074157188"></a>
+          </blockquote>
+        </div>
+        <div className="w-full lg:w-1/3 flex justify-center">
+          <blockquote className="twitter-tweet" data-theme="light">
+            <a href="https://twitter.com/x/status/1774421020679852270"></a>
+          </blockquote>
+        </div>
       </div>
     </div>
   );
