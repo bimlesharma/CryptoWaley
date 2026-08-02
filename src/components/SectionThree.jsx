@@ -21,7 +21,14 @@ function SectionThree() {
         <Feature 
           img={group}
           heading="Exclusive Interviews with Industry Icons"
-          description="We bring you exclusive interviews with renowned personalities who are shaping the future of the web3 and crypto space. From thought leaders to innovators, we delve deep into their insights, experiences, and visions for the decentralized future."
+          description={
+            <>
+              We bring you exclusive interviews with renowned personalities who are shaping the future of the web3 and crypto space. From thought leaders to innovators, we delve deep into their insights, experiences, and visions for the decentralized future. Get inspired by conversations with luminaries such as{" "}
+              <a href="https://x.com/MarioNawfal" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors">Mario Nawfal</a>,{" "}
+              <a href="https://x.com/AjeetK" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors">Ajeet Khurana</a>,{" "}
+              <a href="https://x.com/smtgpt" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors">Sumit Gupta</a>, and more.
+            </>
+          }
           linkText="Explore our interviews"
           linkUrl="https://www.youtube.com/@cryptowaley"
           reverse={false}

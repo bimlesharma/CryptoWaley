@@ -22,7 +22,14 @@ function SectionSix() {
         <TeamCard 
           name="Rishabh Singhal"
           role="CEO of CryptoWaley"
-          description="Driving the vision and strategy for India's leading Web3 media channel. Also serves as an Ambassador for QBlockchain."
+          description={
+            <>
+              Driving the vision and strategy for India's leading Web3 media channel. Also serves as an Ambassador for{" "}
+              <a href="https://x.com/QBlockchain" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors">
+                QBlockchain
+              </a>.
+            </>
+          }
           image={rishabh}
           twitterUrl="https://twitter.com/rishabhsrishi"
           linkedinUrl={null} // Add LinkedIn if available later

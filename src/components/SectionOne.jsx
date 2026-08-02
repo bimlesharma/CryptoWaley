@@ -18,7 +18,7 @@ function SectionOne() {
           Empowering the <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Crypto Community</span> with Insights & Innovation
         </h1>
         <p className="text-gray-400 text-lg md:text-xl leading-relaxed mb-10 max-w-xl">
-          Cryptowaley is your gateway to the vibrant world of cryptocurrency and blockchain. Explore the latest meetups, insightful news, and groundbreaking projects with us.
+          Cryptowaley is your gateway to the vibrant world of cryptocurrency and blockchain. Explore the latest meetups, insightful news, and groundbreaking projects with us. Join our community to revolutionize the way you engage with digital finance.
         </p>
         <div>
           <a 
