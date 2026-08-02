@@ -13,15 +13,17 @@ const Home = () => {
     const location = useLocation();
 
     useEffect(() => {
-        window.scrollTo(0, 0);
-      
         if (location.state?.scrollToId) {
           const element = document.getElementById(location.state.scrollToId);
           if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+            // A small timeout ensures the DOM is fully painted before scrolling,
+            // especially useful when navigating from a completely different page.
+            setTimeout(() => {
+              element.scrollIntoView({ behavior: "smooth" });
+            }, 50);
           }
         }
-      }, [location]);
+      }, [location.state?.scrollToId]);
       
 
     return (
