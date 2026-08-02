@@ -1,31 +1,43 @@
 import React from "react";
-import Cards from "./Cards";
-import CW from "../assets/CW.png";
+import TeamCard from "./TeamCard";
 import rishabh from "/assets/img/rishabh.jpg";
 import keshav from "/assets/img/keshav.jpeg";
 
 function SectionSix() {
   return (
-    <div id="team">
-      <div className="flex flex-col justify-center items-center bg-white text-black">
-      <h1 className=" leading-none md:text-[3rem] text-4xl font-bold text-center pt-20">
-        Founding Partners
-      </h1>
+    <div id="team" className="min-h-screen bg-black py-24 flex flex-col justify-center">
+      
+      {/* Header */}
+      <div className="text-center mb-16 px-5">
+        <p className="text-blue-500 font-semibold uppercase tracking-widest text-sm mb-3">
+          Our Leadership
+        </p>
+        <h1 className="text-4xl md:text-5xl font-bold text-white max-w-4xl mx-auto">
+          Founding Partners
+        </h1>
       </div>
-      <div className=" bg-white text-black py-12 md:p-10 p-5 lg:p-20 gap-5 md:gap-8 lg:gap-20 flex flex-col md:flex-row justify-center items-center">
-      <Cards 
-        heading={'Rishabh Singhal'}
-        p={"CEO of CryptoWaley | Ambassador <a style='color:#7385ff; font-weight: 700; text-decoration: underline;' target='_blank' href='https://twitter.com/QBlockchain'>@QBlockchain</a>"}
-        img = {rishabh}
-        URL={"https://twitter.com/rishabhsrishi"}
-      />
-      <Cards 
-        heading={'Keshav Agarwal'}
-        p={'Diverse Knowledge of Financial Markets | Blockchain & Crypto Advocate | Speaker at Management Education and Research Institute'}
-        img = {keshav}
-        URL={"https://www.linkedin.com/in/keshavism/"}
-      />
-    </div>
+
+      {/* Team Cards Grid */}
+      <div className="max-w-5xl mx-auto px-5 w-full flex flex-col md:flex-row justify-center items-stretch gap-8 lg:gap-16">
+        <TeamCard 
+          name="Rishabh Singhal"
+          role="CEO of CryptoWaley"
+          description="Driving the vision and strategy for India's leading Web3 media channel. Also serves as an Ambassador for QBlockchain."
+          image={rishabh}
+          twitterUrl="https://twitter.com/rishabhsrishi"
+          linkedinUrl={null} // Add LinkedIn if available later
+        />
+        
+        <TeamCard 
+          name="Keshav Agarwal"
+          role="Blockchain & Crypto Advocate"
+          description="Brings diverse knowledge of financial markets to the ecosystem. Regular speaker at the Management Education and Research Institute."
+          image={keshav}
+          twitterUrl={null} // Add Twitter if available later
+          linkedinUrl="https://www.linkedin.com/in/keshavism/"
+        />
+      </div>
+      
     </div>
   );
 }

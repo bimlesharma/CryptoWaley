@@ -18,41 +18,54 @@ const SectionFour = () => {
   return (
     <div
       id="about"
-      className="px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center text-white bg-black bg-gradient-to-r from-black via-black to-[rgba(47,40,255,0.5)]"
+      className="px-5 md:px-10 lg:px-20 py-20 min-h-screen flex flex-col items-center bg-black bg-gradient-to-br from-black via-black to-[rgba(47,40,255,0.2)]"
     >
-      <h1 className="leading-none md:text-[3rem] text-4xl font-bold text-center">
-        Trusted by the world's largest companies
-      </h1>
+      <div className="text-center mb-12">
+        <p className="text-blue-500 font-semibold uppercase tracking-widest text-sm mb-3">
+          See Us In Action
+        </p>
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          Community &amp; Coverage
+        </h1>
+        <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          From full event productions to viral moments, see how CryptoWaley connects with the community.
+        </p>
+      </div>
 
       {/* Intro Video */}
-      <div className="video flex justify-center w-full md:w-[60vw] my-10 rounded-2xl bg-blue-50/5 p-1">
-        <video
-          src={intro}
-          controls={false}
-          className="h-full rounded-2xl bg-slate-400"
-          autoPlay
-          loop
-          muted
-        />
+      <div className="relative w-full max-w-4xl mx-auto mb-20">
+        {/* Glow behind video */}
+        <div className="absolute inset-0 bg-blue-600/20 blur-2xl rounded-3xl" />
+        <div className="relative rounded-3xl overflow-hidden border border-white/10 bg-black/50 shadow-2xl backdrop-blur-sm p-2">
+          <video
+            src={intro}
+            controls={false}
+            className="w-full h-auto rounded-2xl object-cover bg-black"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </div>
       </div>
 
       {/* Native Twitter Embeds */}
       <div
         id="testimonial"
-        className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full justify-center"
+        className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
       >
-        <div className="w-full lg:w-1/3 flex justify-center">
-          <blockquote className="twitter-tweet" data-theme="light">
+        <div className="flex justify-center w-full">
+          <blockquote className="twitter-tweet" data-theme="dark" data-dnt="true">
             <a href="https://twitter.com/x/status/1739587132102938719"></a>
           </blockquote>
         </div>
-        <div className="w-full lg:w-1/3 flex justify-center">
-          <blockquote className="twitter-tweet" data-theme="light">
+        <div className="flex justify-center w-full">
+          <blockquote className="twitter-tweet" data-theme="dark" data-dnt="true">
             <a href="https://twitter.com/x/status/1766504362074157188"></a>
           </blockquote>
         </div>
-        <div className="w-full lg:w-1/3 flex justify-center">
-          <blockquote className="twitter-tweet" data-theme="light">
+        <div className="flex justify-center w-full">
+          <blockquote className="twitter-tweet" data-theme="dark" data-dnt="true">
             <a href="https://twitter.com/x/status/1774421020679852270"></a>
           </blockquote>
         </div>
