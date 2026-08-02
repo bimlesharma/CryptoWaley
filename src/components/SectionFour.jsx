@@ -1,15 +1,9 @@
 import React, { useEffect } from "react";
-import CW from "../assets/CW.png";
-import BrandIcon from "./BrandIcon";
-import ButtonBlue from "./ButtonBlue";
-
-import logo5 from "../assets/brand-logos/logo5.svg";
-import intro from "/assets/intro.mp4"; // Update import path
-import RoundedBox from "./RoundedBox";
+import intro from "/assets/intro.mp4";
 
 const SectionFour = () => {
   useEffect(() => {
-    // Load the Twitter widgets script dynamically
+    // Load Twitter's official widget script to render embedded tweets
     const script = document.createElement("script");
     script.src = "https://platform.twitter.com/widgets.js";
     script.async = true;
@@ -17,52 +11,36 @@ const SectionFour = () => {
     document.body.appendChild(script);
 
     return () => {
-      // Optional: Cleanup the script when the component unmounts
       document.body.removeChild(script);
     };
   }, []);
 
   return (
-    <div id="about" className="px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center  text-white bg-black bg-gradient-to-r from-black via-black  to-[rgba(47,40,255,0.5)] ">
+    <div
+      id="about"
+      className="px-5 md:px-10 lg:px-20 py-12 main min-h-[100vh] flex flex-col justify-center items-center text-white bg-black bg-gradient-to-r from-black via-black to-[rgba(47,40,255,0.5)]"
+    >
       <h1 className="leading-none md:text-[3rem] text-4xl font-bold text-center">
         Trusted by the world's largest companies
       </h1>
 
-      {/* Video Section */}
-      <div className="video flex justify-center w-full md:w-[60vw] my-10 rounded-2xl border-spacing-5 bg-blue-50/5 p-1">
+      {/* Intro Video */}
+      <div className="video flex justify-center w-full md:w-[60vw] my-10 rounded-2xl bg-blue-50/5 p-1">
         <video
           src={intro}
           controls={false}
-          className="w- h-full rounded-2xl bg-slate-400 "
+          className="h-full rounded-2xl bg-slate-400"
           autoPlay
           loop
           muted
         />
-        {/* Set controls={false} to hide video controls */}
       </div>
 
-      {/* Rounded Box Content */}
-      {/* <RoundedBox
-        img={CW}
-        title={'"We went from 3 to 28 people in just 3 months thanks for the great management of Upcloud."'}
-        author="Richard Oconor"
-        authorDesignation="Marketing Manager at Intelo"
-        number="1005+"
-        p="documents automated across the entire business"
-        data="Get Started"
-      /> */}
-
-      {/* Brand Logo Bar */}
-      {/* <div className="flex justify-center my-10 w-[90%]">
-        <BrandIcon icon={logo5} height="h-28 " />
-        <BrandIcon icon={logo5} height="h-28 " />
-        <BrandIcon icon={logo5} height="h-28 " />
-        <BrandIcon icon={logo5} height="h-28 md:hidden" /> 
-        <BrandIcon icon={logo5} height="h-28 lg:hidden" /> 
-        <BrandIcon icon={logo5} height="h-28 xl:hidden" /> 
-      </div> */}
-
-      <div id="testimonial" className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full justify-center">
+      {/* Native Twitter Embeds */}
+      <div
+        id="testimonial"
+        className="tweets flex items-center lg:items-start flex-col mx-10 lg:flex-row lg:gap-5 w-full justify-center"
+      >
         <div className="w-full lg:w-1/3 flex justify-center">
           <blockquote className="twitter-tweet" data-theme="light">
             <a href="https://twitter.com/x/status/1739587132102938719"></a>

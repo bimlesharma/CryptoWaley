@@ -1,7 +1,5 @@
 
 import React from "react";
-import Button from "./Button";
-import cw from "../assets/CW.png";
 
 function Feature({ heading, para0, para1, img }) {
   return (

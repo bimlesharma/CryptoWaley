@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Media_pricing_component from './Media-pricing-component';
 import Advertise_pricing_component from './Advertise-pricing-component';
 

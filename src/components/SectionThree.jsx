@@ -1,6 +1,3 @@
-import Button from "./Button";
-import ButtonBlue from "./ButtonBlue";
-import cw from "../assets/CW.png";
 import standee from "/assets/img/standee.jpg";
 import bengaluru from "/assets/img/bengaluru.jpg";
 import stage from "/assets/img/stage.jpg";

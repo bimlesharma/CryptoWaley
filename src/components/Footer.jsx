@@ -1,19 +1,14 @@
 import React from "react";
-import CW from "../assets/CW.png";
-
+import cwlogo from "/assets/img/logo.png";
 import NavButton from "./NavButton";
 import { FaWhatsapp } from "react-icons/fa";
-
-
 import {
   FaFacebookF,
   FaInstagram,
-  FaTwitter,
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
 
 const Footer = () => {
   return (
@@ -25,7 +20,7 @@ const Footer = () => {
       <div className="container mx-auto  sm:px-6 flex flex-col md:flex-row justify-between items-center">
 
           <div className="left mt-10 md:mt-0">
-            <img src={CW} alt="Company Logo" className="h-40 bg-white" />
+            <img src={cwlogo} alt="CryptoWaley Logo" className="h-24" />
           </div>
 
           <div className="mid">

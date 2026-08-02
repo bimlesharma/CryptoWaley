@@ -1,11 +1,10 @@
 import React from "react";
-
-import BrandIcon from "./BrandIcon"; // Assuming BrandIcon component is properly imported
+import BrandIcon from "./BrandIcon";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Import all brand logos
+// Import all brand logos into a single array — add/remove logos here
 import b1 from "../assets/brand-logos/1.png";
 import b2 from "../assets/brand-logos/2.png";
 import b3 from "../assets/brand-logos/3.png";
@@ -21,64 +20,30 @@ import b12 from "../assets/brand-logos/12.png";
 import b13 from "../assets/brand-logos/13.png";
 import b14 from "../assets/brand-logos/14.png";
 
+const BRAND_LOGOS = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14];
+
+const SLIDER_SETTINGS = {
+  dots: false,
+  arrows: false,
+  infinite: true,
+  slidesToShow: 8,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 2000,
+  autoplaySpeed: 2000,
+  cssEase: "linear",
+  easing: "ease-in-out",
+};
+
 function SectionTwo() {
-  const settings = {
-    dots: false,
-    arrows: false,
-    infinite: true,
-    slidesToShow: 8,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed:2000,
-    cssEase: "linear",
-    easing: "ease-in-out",
-  };
   return (
     <div className="m-auto w-full h-auto bg-blue-950">
-      <Slider {...settings} className="flex items-center p-2 pt-3">
-        <div>
-          <BrandIcon key={1} icon={b1} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={2} icon={b2} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={3} icon={b3} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={4} icon={b4} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={5} icon={b5} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={6} icon={b6} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={7} icon={b7} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={8} icon={b8} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={9} icon={b9} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={10} icon={b10} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={11} icon={b11} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={12} icon={b12} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={13} icon={b13} height="h-12" />
-        </div>
-        <div>
-          <BrandIcon key={14} icon={b14} height="h-12" />
-        </div>
+      <Slider {...SLIDER_SETTINGS} className="flex items-center p-2 pt-3">
+        {BRAND_LOGOS.map((logo, index) => (
+          <div key={index}>
+            <BrandIcon icon={logo} height="h-12" />
+          </div>
+        ))}
       </Slider>
     </div>
   );
